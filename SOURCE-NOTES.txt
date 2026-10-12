@@ -1,0 +1,3 @@
+Beta 0.2.0 corresponds to installed package SHA256 37c12d9c1353158962f98db2e870a304bdc6e65ba22aa1e425cbffd851c8209c.
+GameBanana description copied verbatim from public page 726842.
+Current source is a curated authoring snapshot, not a verified clean-room build. Deadlock tools and original game resources are external dependencies. Proprietary compiler binaries, credentials, device configs, private feedback and chat logs are not included.

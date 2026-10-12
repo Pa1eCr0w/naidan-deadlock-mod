@@ -1,0 +1,1270 @@
+/* Prettified by Source 2 Viewer 20.0.0.0 - https://valveresourceformat.github.io */
+
+CitadelHeroLogo
+{
+	flow-children: down;
+}
+
+.HeroName
+{
+	font-size: 160px;
+	text-overflow: shrink;
+	max-height: 120px;
+	max-width: 650px;
+	font-weight: bold;
+	font-family: block;
+	text-transform: uppercase;
+	text-align: center;
+	horizontal-align: center;
+	visibility: collapse;
+}
+
+.ShowHeroName .HeroName
+{
+	visibility: visible;
+}
+
+.ShowHeroName.ShowHeroLogo .HeroName
+{
+	font-size: 55px;
+}
+
+#NaidanLocalizedLogo
+{
+	max-width: 600px;
+	height: 160px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	visibility: collapse;
+	wash-color: offWhite;
+	horizontal-align: middle;
+}
+
+.ShowHeroLogo #NaidanLocalizedLogo
+{
+	visibility: visible;
+}
+
+.hero_bookworm :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.hero_drifter :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: 10px;
+}
+
+.hero_orion :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: 0px;
+}
+
+.hero_haze :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 140px;
+}
+
+.hero_lash :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 180px;
+}
+
+.hero_mirage :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.hero_synth :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 250px;
+}
+
+.hero_shiv :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 200px;
+}
+
+.hero_vampirebat :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 200px;
+}
+
+.hero_hornet :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: 5px;
+}
+
+.hero_viper :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 220px;
+	margin-bottom: 5px;
+}
+
+.hero_priest :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: 20px;
+	height: 200px;
+}
+
+.hero_fencer :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: 10px;
+	height: 210px;
+}
+
+.hero_werewolf :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 230px;
+}
+
+.Language_english .hero_werewolf :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: -30px;
+}
+
+.hero_necro :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: 20px;
+}
+
+.hero_familiar :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 250px;
+}
+
+.hero_unicorn :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 250px;
+}
+
+.hero_deadpack :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 220px;
+}
+
+.hero_ratking :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 250px;
+}
+
+.hero_chessmaster :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 180px;
+	margin-bottom: 20px;
+}
+
+.hero_nurse :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 240px;
+	margin-bottom: 20px;
+}
+
+.hero_baba :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	margin-bottom: 15px;
+}
+
+.hero_artist :not(.DisablePerHeroAdjustments) #NaidanLocalizedLogo
+{
+	height: 270px;
+	margin-left: 40px;
+	margin-bottom: -20px;
+}
+
+#CitadelPostGameNew #NaidanLocalizedLogo
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#CitadelPostGameNew .hero_synth #NaidanLocalizedLogo
+{
+	height: 220px;
+}
+
+#CitadelPostGameNew .hero_ghost #NaidanLocalizedLogo
+{
+	padding-top: 0px;
+}
+
+#CitadelPostGameNew .hero_priest #NaidanLocalizedLogo
+{
+	padding-right: 68px;
+}
+
+.hero_haze #NaidanLocalizedLogo
+{
+	opacity-brush: gradient( linear, 40% 0%, 100% 0%, from( #ffffff ), to( #ffffff30) );
+}
+
+
+/* Engine-owned Image receives a source independently of CSS backgrounds. Keep it hidden. */
+#LogoImage, .ShowHeroLogo #LogoImage { visibility: collapse; }
+.HeroName, .ShowHeroName .HeroName, .ShowHeroName.ShowHeroLogo .HeroName { visibility: collapse; }
+CitadelHeroLogo #NaidanLocalizedLogo { width: 600px; visibility: visible; }
+.hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/infernus.vsvg"); }
+.hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/seven.vsvg"); }
+.hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/vindicta.vsvg"); }
+.hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/lady_geist.vsvg"); }
+.hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/abrams.vsvg"); }
+.hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/wraith.vsvg"); }
+.hero_forge CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/mcginnis.vsvg"); }
+.hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/paradox.vsvg"); }
+.hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/dynamo.vsvg"); }
+.hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/kelvin.vsvg"); }
+.hero_haze CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/haze.vsvg"); }
+.hero_astro CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/holliday.vsvg"); }
+.hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/bebop.vsvg"); }
+.hero_nano CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/calico.vsvg"); }
+.hero_orion CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/grey_talon.vsvg"); }
+.hero_krill CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/mo_krill.vsvg"); }
+.hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/shiv.vsvg"); }
+.hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/ivy.vsvg"); }
+.hero_warden CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/warden.vsvg"); }
+.hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/yamato.vsvg"); }
+.hero_lash CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/lash.vsvg"); }
+.hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/viscous.vsvg"); }
+.hero_synth CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/pocket.vsvg"); }
+.hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/mirage.vsvg"); }
+.hero_viper CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/vyper.vsvg"); }
+.hero_magician CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/sinclair.vsvg"); }
+.hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/mina.vsvg"); }
+.hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/drifter.vsvg"); }
+.hero_priest CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/priest.vsvg"); }
+.hero_frank CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/victor.vsvg"); }
+.hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/paige.vsvg"); }
+.hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/doorman.vsvg"); }
+.hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/billy.vsvg"); }
+.hero_necro CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/necro.vsvg"); }
+.hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/fencer.vsvg"); }
+.hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/deadpack.vsvg"); }
+.hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/familiar.vsvg"); }
+.hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/werewolf.vsvg"); }
+.hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/unicorn.vsvg"); }
+.hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/calico.vsvg"); }
+.hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/ratking.vsvg"); }
+.hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/solomon.vsvg"); }
+.hero_artist CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/violet.vsvg"); }
+.hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/english/nurse.vsvg"); }
+.hero_baba CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_baba #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/heroes/hero_names/baba_round_cn.vtex"); }
+.Language_brazilian .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/infernus.vsvg"); }
+.Language_brazilian .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/seven.vsvg"); }
+.Language_brazilian .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/vindicta.vsvg"); }
+.Language_brazilian .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/lady_geist.vsvg"); }
+.Language_brazilian .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/abrams.vsvg"); }
+.Language_brazilian .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/wraith.vsvg"); }
+.Language_brazilian .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/mcginnis.vsvg"); }
+.Language_brazilian .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/paradox.vsvg"); }
+.Language_brazilian .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/dynamo.vsvg"); }
+.Language_brazilian .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/kelvin.vsvg"); }
+.Language_brazilian .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/haze.vsvg"); }
+.Language_brazilian .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/holliday.vsvg"); }
+.Language_brazilian .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/bebop.vsvg"); }
+.Language_brazilian .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/calico.vsvg"); }
+.Language_brazilian .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/grey_talon.vsvg"); }
+.Language_brazilian .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/mo_krill.vsvg"); }
+.Language_brazilian .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/shiv.vsvg"); }
+.Language_brazilian .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/ivy.vsvg"); }
+.Language_brazilian .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/warden.vsvg"); }
+.Language_brazilian .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/yamato.vsvg"); }
+.Language_brazilian .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/lash.vsvg"); }
+.Language_brazilian .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/viscous.vsvg"); }
+.Language_brazilian .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/pocket.vsvg"); }
+.Language_brazilian .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/mirage.vsvg"); }
+.Language_brazilian .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/vyper.vsvg"); }
+.Language_brazilian .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/sinclair.vsvg"); }
+.Language_brazilian .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/mina.vsvg"); }
+.Language_brazilian .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/drifter.vsvg"); }
+.Language_brazilian .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/priest.vsvg"); }
+.Language_brazilian .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/victor.vsvg"); }
+.Language_brazilian .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/paige.vsvg"); }
+.Language_brazilian .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/doorman.vsvg"); }
+.Language_brazilian .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/billy.vsvg"); }
+.Language_brazilian .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/necro.vsvg"); }
+.Language_brazilian .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/fencer.vsvg"); }
+.Language_brazilian .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/deadpack.vsvg"); }
+.Language_brazilian .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/familiar.vsvg"); }
+.Language_brazilian .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/werewolf.vsvg"); }
+.Language_brazilian .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/unicorn.vsvg"); }
+.Language_brazilian .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/calico.vsvg"); }
+.Language_brazilian .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/ratking.vsvg"); }
+.Language_brazilian .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/solomon.vsvg"); }
+.Language_brazilian .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/violet.vsvg"); }
+.Language_brazilian .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_brazilian CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/brazilian/nurse.vsvg"); }
+.Language_french .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/infernus.vsvg"); }
+.Language_french .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/seven.vsvg"); }
+.Language_french .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/vindicta.vsvg"); }
+.Language_french .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/lady_geist.vsvg"); }
+.Language_french .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/abrams.vsvg"); }
+.Language_french .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/wraith.vsvg"); }
+.Language_french .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/mcginnis.vsvg"); }
+.Language_french .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/paradox.vsvg"); }
+.Language_french .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/dynamo.vsvg"); }
+.Language_french .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/kelvin.vsvg"); }
+.Language_french .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/haze.vsvg"); }
+.Language_french .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/holliday.vsvg"); }
+.Language_french .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/bebop.vsvg"); }
+.Language_french .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/calico.vsvg"); }
+.Language_french .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/grey_talon.vsvg"); }
+.Language_french .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/mo_krill.vsvg"); }
+.Language_french .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/shiv.vsvg"); }
+.Language_french .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/ivy.vsvg"); }
+.Language_french .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/warden.vsvg"); }
+.Language_french .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/yamato.vsvg"); }
+.Language_french .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/lash.vsvg"); }
+.Language_french .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/viscous.vsvg"); }
+.Language_french .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/pocket.vsvg"); }
+.Language_french .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/mirage.vsvg"); }
+.Language_french .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/vyper.vsvg"); }
+.Language_french .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/sinclair.vsvg"); }
+.Language_french .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/mina.vsvg"); }
+.Language_french .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/drifter.vsvg"); }
+.Language_french .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/priest.vsvg"); }
+.Language_french .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/victor.vsvg"); }
+.Language_french .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/paige.vsvg"); }
+.Language_french .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/doorman.vsvg"); }
+.Language_french .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/billy.vsvg"); }
+.Language_french .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/necro.vsvg"); }
+.Language_french .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/fencer.vsvg"); }
+.Language_french .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/deadpack.vsvg"); }
+.Language_french .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/familiar.vsvg"); }
+.Language_french .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/werewolf.vsvg"); }
+.Language_french .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/unicorn.vsvg"); }
+.Language_french .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/calico.vsvg"); }
+.Language_french .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/ratking.vsvg"); }
+.Language_french .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/solomon.vsvg"); }
+.Language_french .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/violet.vsvg"); }
+.Language_french .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_french CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/french/nurse.vsvg"); }
+.Language_italian .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/infernus.vsvg"); }
+.Language_italian .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/seven.vsvg"); }
+.Language_italian .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/vindicta.vsvg"); }
+.Language_italian .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/lady_geist.vsvg"); }
+.Language_italian .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/abrams.vsvg"); }
+.Language_italian .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/wraith.vsvg"); }
+.Language_italian .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/mcginnis.vsvg"); }
+.Language_italian .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/paradox.vsvg"); }
+.Language_italian .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/dynamo.vsvg"); }
+.Language_italian .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/kelvin.vsvg"); }
+.Language_italian .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/haze.vsvg"); }
+.Language_italian .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/holliday.vsvg"); }
+.Language_italian .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/bebop.vsvg"); }
+.Language_italian .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/calico.vsvg"); }
+.Language_italian .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/grey_talon.vsvg"); }
+.Language_italian .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/mo_krill.vsvg"); }
+.Language_italian .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/shiv.vsvg"); }
+.Language_italian .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/ivy.vsvg"); }
+.Language_italian .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/warden.vsvg"); }
+.Language_italian .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/yamato.vsvg"); }
+.Language_italian .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/lash.vsvg"); }
+.Language_italian .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/viscous.vsvg"); }
+.Language_italian .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/pocket.vsvg"); }
+.Language_italian .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/mirage.vsvg"); }
+.Language_italian .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/vyper.vsvg"); }
+.Language_italian .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/sinclair.vsvg"); }
+.Language_italian .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/mina.vsvg"); }
+.Language_italian .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/drifter.vsvg"); }
+.Language_italian .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/priest.vsvg"); }
+.Language_italian .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/victor.vsvg"); }
+.Language_italian .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/paige.vsvg"); }
+.Language_italian .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/doorman.vsvg"); }
+.Language_italian .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/billy.vsvg"); }
+.Language_italian .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/necro.vsvg"); }
+.Language_italian .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/fencer.vsvg"); }
+.Language_italian .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/deadpack.vsvg"); }
+.Language_italian .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/familiar.vsvg"); }
+.Language_italian .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/werewolf.vsvg"); }
+.Language_italian .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/unicorn.vsvg"); }
+.Language_italian .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/calico.vsvg"); }
+.Language_italian .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/ratking.vsvg"); }
+.Language_italian .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/solomon.vsvg"); }
+.Language_italian .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/violet.vsvg"); }
+.Language_italian .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_italian CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/italian/nurse.vsvg"); }
+.Language_koreana .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/infernus.vsvg"); }
+.Language_koreana .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/seven.vsvg"); }
+.Language_koreana .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/vindicta.vsvg"); }
+.Language_koreana .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/lady_geist.vsvg"); }
+.Language_koreana .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/abrams.vsvg"); }
+.Language_koreana .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/wraith.vsvg"); }
+.Language_koreana .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/mcginnis.vsvg"); }
+.Language_koreana .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/paradox.vsvg"); }
+.Language_koreana .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/dynamo.vsvg"); }
+.Language_koreana .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/kelvin.vsvg"); }
+.Language_koreana .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/haze.vsvg"); }
+.Language_koreana .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/holliday.vsvg"); }
+.Language_koreana .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/bebop.vsvg"); }
+.Language_koreana .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/calico.vsvg"); }
+.Language_koreana .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/grey_talon.vsvg"); }
+.Language_koreana .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/mo_krill.vsvg"); }
+.Language_koreana .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/shiv.vsvg"); }
+.Language_koreana .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/ivy.vsvg"); }
+.Language_koreana .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/warden.vsvg"); }
+.Language_koreana .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/yamato.vsvg"); }
+.Language_koreana .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/lash.vsvg"); }
+.Language_koreana .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/viscous.vsvg"); }
+.Language_koreana .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/pocket.vsvg"); }
+.Language_koreana .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/mirage.vsvg"); }
+.Language_koreana .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/vyper.vsvg"); }
+.Language_koreana .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/sinclair.vsvg"); }
+.Language_koreana .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/mina.vsvg"); }
+.Language_koreana .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/drifter.vsvg"); }
+.Language_koreana .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/priest.vsvg"); }
+.Language_koreana .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/victor.vsvg"); }
+.Language_koreana .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/paige.vsvg"); }
+.Language_koreana .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/doorman.vsvg"); }
+.Language_koreana .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/billy.vsvg"); }
+.Language_koreana .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/necro.vsvg"); }
+.Language_koreana .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/fencer.vsvg"); }
+.Language_koreana .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/deadpack.vsvg"); }
+.Language_koreana .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/familiar.vsvg"); }
+.Language_koreana .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/werewolf.vsvg"); }
+.Language_koreana .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/unicorn.vsvg"); }
+.Language_koreana .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/calico.vsvg"); }
+.Language_koreana .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/ratking.vsvg"); }
+.Language_koreana .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/solomon.vsvg"); }
+.Language_koreana .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/violet.vsvg"); }
+.Language_koreana .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_koreana CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/koreana/nurse.vsvg"); }
+.Language_latam .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/infernus.vsvg"); }
+.Language_latam .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/seven.vsvg"); }
+.Language_latam .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/vindicta.vsvg"); }
+.Language_latam .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/lady_geist.vsvg"); }
+.Language_latam .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/abrams.vsvg"); }
+.Language_latam .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/wraith.vsvg"); }
+.Language_latam .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/mcginnis.vsvg"); }
+.Language_latam .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/paradox.vsvg"); }
+.Language_latam .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/dynamo.vsvg"); }
+.Language_latam .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/kelvin.vsvg"); }
+.Language_latam .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/haze.vsvg"); }
+.Language_latam .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/holliday.vsvg"); }
+.Language_latam .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/bebop.vsvg"); }
+.Language_latam .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/calico.vsvg"); }
+.Language_latam .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/grey_talon.vsvg"); }
+.Language_latam .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/mo_krill.vsvg"); }
+.Language_latam .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/shiv.vsvg"); }
+.Language_latam .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/ivy.vsvg"); }
+.Language_latam .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/warden.vsvg"); }
+.Language_latam .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/yamato.vsvg"); }
+.Language_latam .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/lash.vsvg"); }
+.Language_latam .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/viscous.vsvg"); }
+.Language_latam .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/pocket.vsvg"); }
+.Language_latam .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/mirage.vsvg"); }
+.Language_latam .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/vyper.vsvg"); }
+.Language_latam .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/sinclair.vsvg"); }
+.Language_latam .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/mina.vsvg"); }
+.Language_latam .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/drifter.vsvg"); }
+.Language_latam .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/priest.vsvg"); }
+.Language_latam .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/victor.vsvg"); }
+.Language_latam .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/paige.vsvg"); }
+.Language_latam .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/doorman.vsvg"); }
+.Language_latam .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/billy.vsvg"); }
+.Language_latam .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/necro.vsvg"); }
+.Language_latam .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/fencer.vsvg"); }
+.Language_latam .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/deadpack.vsvg"); }
+.Language_latam .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/familiar.vsvg"); }
+.Language_latam .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/werewolf.vsvg"); }
+.Language_latam .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/unicorn.vsvg"); }
+.Language_latam .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/calico.vsvg"); }
+.Language_latam .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/ratking.vsvg"); }
+.Language_latam .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/solomon.vsvg"); }
+.Language_latam .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/violet.vsvg"); }
+.Language_latam .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_latam CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/latam/nurse.vsvg"); }
+.Language_polish .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/infernus.vsvg"); }
+.Language_polish .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/seven.vsvg"); }
+.Language_polish .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/vindicta.vsvg"); }
+.Language_polish .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/lady_geist.vsvg"); }
+.Language_polish .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/abrams.vsvg"); }
+.Language_polish .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/wraith.vsvg"); }
+.Language_polish .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/mcginnis.vsvg"); }
+.Language_polish .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/paradox.vsvg"); }
+.Language_polish .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/dynamo.vsvg"); }
+.Language_polish .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/kelvin.vsvg"); }
+.Language_polish .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/haze.vsvg"); }
+.Language_polish .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/holliday.vsvg"); }
+.Language_polish .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/bebop.vsvg"); }
+.Language_polish .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/calico.vsvg"); }
+.Language_polish .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/grey_talon.vsvg"); }
+.Language_polish .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/mo_krill.vsvg"); }
+.Language_polish .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/shiv.vsvg"); }
+.Language_polish .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/ivy.vsvg"); }
+.Language_polish .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/warden.vsvg"); }
+.Language_polish .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/yamato.vsvg"); }
+.Language_polish .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/lash.vsvg"); }
+.Language_polish .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/viscous.vsvg"); }
+.Language_polish .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/pocket.vsvg"); }
+.Language_polish .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/mirage.vsvg"); }
+.Language_polish .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/vyper.vsvg"); }
+.Language_polish .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/sinclair.vsvg"); }
+.Language_polish .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/mina.vsvg"); }
+.Language_polish .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/drifter.vsvg"); }
+.Language_polish .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/priest.vsvg"); }
+.Language_polish .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/victor.vsvg"); }
+.Language_polish .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/paige.vsvg"); }
+.Language_polish .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/doorman.vsvg"); }
+.Language_polish .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/billy.vsvg"); }
+.Language_polish .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/necro.vsvg"); }
+.Language_polish .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/fencer.vsvg"); }
+.Language_polish .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/deadpack.vsvg"); }
+.Language_polish .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/familiar.vsvg"); }
+.Language_polish .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/werewolf.vsvg"); }
+.Language_polish .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/unicorn.vsvg"); }
+.Language_polish .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/calico.vsvg"); }
+.Language_polish .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/ratking.vsvg"); }
+.Language_polish .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/solomon.vsvg"); }
+.Language_polish .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/violet.vsvg"); }
+.Language_polish .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_polish CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/polish/nurse.vsvg"); }
+.Language_russian .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/infernus.vsvg"); }
+.Language_russian .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/seven.vsvg"); }
+.Language_russian .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/vindicta.vsvg"); }
+.Language_russian .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/lady_geist.vsvg"); }
+.Language_russian .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/abrams.vsvg"); }
+.Language_russian .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/wraith.vsvg"); }
+.Language_russian .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/mcginnis.vsvg"); }
+.Language_russian .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/paradox.vsvg"); }
+.Language_russian .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/dynamo.vsvg"); }
+.Language_russian .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/kelvin.vsvg"); }
+.Language_russian .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/haze.vsvg"); }
+.Language_russian .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/holliday.vsvg"); }
+.Language_russian .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/bebop.vsvg"); }
+.Language_russian .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/calico.vsvg"); }
+.Language_russian .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/grey_talon.vsvg"); }
+.Language_russian .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/mo_krill.vsvg"); }
+.Language_russian .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/shiv.vsvg"); }
+.Language_russian .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/ivy.vsvg"); }
+.Language_russian .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/warden.vsvg"); }
+.Language_russian .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/yamato.vsvg"); }
+.Language_russian .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/lash.vsvg"); }
+.Language_russian .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/viscous.vsvg"); }
+.Language_russian .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/pocket.vsvg"); }
+.Language_russian .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/mirage.vsvg"); }
+.Language_russian .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/vyper.vsvg"); }
+.Language_russian .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/sinclair.vsvg"); }
+.Language_russian .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/mina.vsvg"); }
+.Language_russian .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/drifter.vsvg"); }
+.Language_russian .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/priest.vsvg"); }
+.Language_russian .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/victor.vsvg"); }
+.Language_russian .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/paige.vsvg"); }
+.Language_russian .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/doorman.vsvg"); }
+.Language_russian .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/billy.vsvg"); }
+.Language_russian .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/necro.vsvg"); }
+.Language_russian .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/fencer.vsvg"); }
+.Language_russian .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/deadpack.vsvg"); }
+.Language_russian .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/familiar.vsvg"); }
+.Language_russian .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/werewolf.vsvg"); }
+.Language_russian .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/unicorn.vsvg"); }
+.Language_russian .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/calico.vsvg"); }
+.Language_russian .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/ratking.vsvg"); }
+.Language_russian .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/solomon.vsvg"); }
+.Language_russian .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/violet.vsvg"); }
+.Language_russian .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_russian CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/russian/nurse.vsvg"); }
+.Language_schinese .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/infernus.vsvg"); }
+.Language_schinese .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/seven.vsvg"); }
+.Language_schinese .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/vindicta.vsvg"); }
+.Language_schinese .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/lady_geist.vsvg"); }
+.Language_schinese .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/abrams.vsvg"); }
+.Language_schinese .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/wraith.vsvg"); }
+.Language_schinese .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/mcginnis.vsvg"); }
+.Language_schinese .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/paradox.vsvg"); }
+.Language_schinese .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/dynamo.vsvg"); }
+.Language_schinese .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/kelvin.vsvg"); }
+.Language_schinese .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/haze.vsvg"); }
+.Language_schinese .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/holliday.vsvg"); }
+.Language_schinese .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/bebop.vsvg"); }
+.Language_schinese .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/calico.vsvg"); }
+.Language_schinese .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/grey_talon.vsvg"); }
+.Language_schinese .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/mo_krill.vsvg"); }
+.Language_schinese .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/shiv.vsvg"); }
+.Language_schinese .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/ivy.vsvg"); }
+.Language_schinese .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/warden.vsvg"); }
+.Language_schinese .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/yamato.vsvg"); }
+.Language_schinese .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/lash.vsvg"); }
+.Language_schinese .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/viscous.vsvg"); }
+.Language_schinese .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/pocket.vsvg"); }
+.Language_schinese .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/mirage.vsvg"); }
+.Language_schinese .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/vyper.vsvg"); }
+.Language_schinese .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/sinclair.vsvg"); }
+.Language_schinese .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/mina.vsvg"); }
+.Language_schinese .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/drifter.vsvg"); }
+.Language_schinese .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/priest.vsvg"); }
+.Language_schinese .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/victor.vsvg"); }
+.Language_schinese .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/paige.vsvg"); }
+.Language_schinese .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/doorman.vsvg"); }
+.Language_schinese .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/billy.vsvg"); }
+.Language_schinese .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/necro.vsvg"); }
+.Language_schinese .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/fencer.vsvg"); }
+.Language_schinese .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/deadpack.vsvg"); }
+.Language_schinese .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/familiar.vsvg"); }
+.Language_schinese .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/werewolf.vsvg"); }
+.Language_schinese .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/unicorn.vsvg"); }
+.Language_schinese .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/calico.vsvg"); }
+.Language_schinese .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/ratking.vsvg"); }
+.Language_schinese .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/solomon.vsvg"); }
+.Language_schinese .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/violet.vsvg"); }
+.Language_schinese .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_schinese CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/schinese/nurse.vsvg"); }
+.Language_spanish .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/infernus.vsvg"); }
+.Language_spanish .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/seven.vsvg"); }
+.Language_spanish .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/vindicta.vsvg"); }
+.Language_spanish .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/lady_geist.vsvg"); }
+.Language_spanish .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/abrams.vsvg"); }
+.Language_spanish .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/wraith.vsvg"); }
+.Language_spanish .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/mcginnis.vsvg"); }
+.Language_spanish .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/paradox.vsvg"); }
+.Language_spanish .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/dynamo.vsvg"); }
+.Language_spanish .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/kelvin.vsvg"); }
+.Language_spanish .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/haze.vsvg"); }
+.Language_spanish .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/holliday.vsvg"); }
+.Language_spanish .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/bebop.vsvg"); }
+.Language_spanish .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/calico.vsvg"); }
+.Language_spanish .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/grey_talon.vsvg"); }
+.Language_spanish .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/mo_krill.vsvg"); }
+.Language_spanish .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/shiv.vsvg"); }
+.Language_spanish .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/ivy.vsvg"); }
+.Language_spanish .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/warden.vsvg"); }
+.Language_spanish .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/yamato.vsvg"); }
+.Language_spanish .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/lash.vsvg"); }
+.Language_spanish .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/viscous.vsvg"); }
+.Language_spanish .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/pocket.vsvg"); }
+.Language_spanish .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/mirage.vsvg"); }
+.Language_spanish .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/vyper.vsvg"); }
+.Language_spanish .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/sinclair.vsvg"); }
+.Language_spanish .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/mina.vsvg"); }
+.Language_spanish .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/drifter.vsvg"); }
+.Language_spanish .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/priest.vsvg"); }
+.Language_spanish .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/victor.vsvg"); }
+.Language_spanish .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/paige.vsvg"); }
+.Language_spanish .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/doorman.vsvg"); }
+.Language_spanish .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/billy.vsvg"); }
+.Language_spanish .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/necro.vsvg"); }
+.Language_spanish .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/fencer.vsvg"); }
+.Language_spanish .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/deadpack.vsvg"); }
+.Language_spanish .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/familiar.vsvg"); }
+.Language_spanish .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/werewolf.vsvg"); }
+.Language_spanish .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/unicorn.vsvg"); }
+.Language_spanish .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/calico.vsvg"); }
+.Language_spanish .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/ratking.vsvg"); }
+.Language_spanish .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/solomon.vsvg"); }
+.Language_spanish .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/violet.vsvg"); }
+.Language_spanish .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_spanish CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/spanish/nurse.vsvg"); }
+.Language_turkish .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/infernus.vsvg"); }
+.Language_turkish .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/seven.vsvg"); }
+.Language_turkish .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/vindicta.vsvg"); }
+.Language_turkish .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/lady_geist.vsvg"); }
+.Language_turkish .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/abrams.vsvg"); }
+.Language_turkish .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/wraith.vsvg"); }
+.Language_turkish .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/mcginnis.vsvg"); }
+.Language_turkish .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/paradox.vsvg"); }
+.Language_turkish .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/dynamo.vsvg"); }
+.Language_turkish .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/kelvin.vsvg"); }
+.Language_turkish .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/haze.vsvg"); }
+.Language_turkish .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/holliday.vsvg"); }
+.Language_turkish .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/bebop.vsvg"); }
+.Language_turkish .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/calico.vsvg"); }
+.Language_turkish .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/grey_talon.vsvg"); }
+.Language_turkish .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/mo_krill.vsvg"); }
+.Language_turkish .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/shiv.vsvg"); }
+.Language_turkish .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/ivy.vsvg"); }
+.Language_turkish .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/warden.vsvg"); }
+.Language_turkish .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/yamato.vsvg"); }
+.Language_turkish .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/lash.vsvg"); }
+.Language_turkish .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/viscous.vsvg"); }
+.Language_turkish .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/pocket.vsvg"); }
+.Language_turkish .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/mirage.vsvg"); }
+.Language_turkish .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/vyper.vsvg"); }
+.Language_turkish .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/sinclair.vsvg"); }
+.Language_turkish .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/mina.vsvg"); }
+.Language_turkish .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/drifter.vsvg"); }
+.Language_turkish .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/priest.vsvg"); }
+.Language_turkish .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/victor.vsvg"); }
+.Language_turkish .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/paige.vsvg"); }
+.Language_turkish .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/doorman.vsvg"); }
+.Language_turkish .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/billy.vsvg"); }
+.Language_turkish .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/necro.vsvg"); }
+.Language_turkish .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/fencer.vsvg"); }
+.Language_turkish .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/deadpack.vsvg"); }
+.Language_turkish .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/familiar.vsvg"); }
+.Language_turkish .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/werewolf.vsvg"); }
+.Language_turkish .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/unicorn.vsvg"); }
+.Language_turkish .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/calico.vsvg"); }
+.Language_turkish .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/ratking.vsvg"); }
+.Language_turkish .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/solomon.vsvg"); }
+.Language_turkish .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/violet.vsvg"); }
+.Language_turkish .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_turkish CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/turkish/nurse.vsvg"); }
+.Language_ukrainian .hero_inferno CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_inferno #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/infernus.vsvg"); }
+.Language_ukrainian .hero_gigawatt CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_gigawatt #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/seven.vsvg"); }
+.Language_ukrainian .hero_hornet CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_hornet #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/vindicta.vsvg"); }
+.Language_ukrainian .hero_ghost CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_ghost #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/lady_geist.vsvg"); }
+.Language_ukrainian .hero_atlas CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_atlas #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/abrams.vsvg"); }
+.Language_ukrainian .hero_wraith CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_wraith #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/wraith.vsvg"); }
+.Language_ukrainian .hero_forge CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_forge #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/mcginnis.vsvg"); }
+.Language_ukrainian .hero_chrono CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_chrono #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/paradox.vsvg"); }
+.Language_ukrainian .hero_dynamo CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_dynamo #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/dynamo.vsvg"); }
+.Language_ukrainian .hero_kelvin CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_kelvin #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/kelvin.vsvg"); }
+.Language_ukrainian .hero_haze CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_haze #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/haze.vsvg"); }
+.Language_ukrainian .hero_astro CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_astro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/holliday.vsvg"); }
+.Language_ukrainian .hero_bebop CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_bebop #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/bebop.vsvg"); }
+.Language_ukrainian .hero_nano CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_nano #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/calico.vsvg"); }
+.Language_ukrainian .hero_orion CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_orion #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/grey_talon.vsvg"); }
+.Language_ukrainian .hero_krill CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_krill #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/mo_krill.vsvg"); }
+.Language_ukrainian .hero_shiv CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_shiv #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/shiv.vsvg"); }
+.Language_ukrainian .hero_tengu CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_tengu #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/ivy.vsvg"); }
+.Language_ukrainian .hero_warden CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_warden #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/warden.vsvg"); }
+.Language_ukrainian .hero_yamato CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_yamato #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/yamato.vsvg"); }
+.Language_ukrainian .hero_lash CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_lash #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/lash.vsvg"); }
+.Language_ukrainian .hero_viscous CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_viscous #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/viscous.vsvg"); }
+.Language_ukrainian .hero_synth CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_synth #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/pocket.vsvg"); }
+.Language_ukrainian .hero_mirage CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_mirage #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/mirage.vsvg"); }
+.Language_ukrainian .hero_viper CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_viper #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/vyper.vsvg"); }
+.Language_ukrainian .hero_magician CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_magician #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/sinclair.vsvg"); }
+.Language_ukrainian .hero_vampirebat CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_vampirebat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/mina.vsvg"); }
+.Language_ukrainian .hero_drifter CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_drifter #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/drifter.vsvg"); }
+.Language_ukrainian .hero_priest CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_priest #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/priest.vsvg"); }
+.Language_ukrainian .hero_frank CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_frank #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/victor.vsvg"); }
+.Language_ukrainian .hero_bookworm CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_bookworm #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/paige.vsvg"); }
+.Language_ukrainian .hero_doorman CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_doorman #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/doorman.vsvg"); }
+.Language_ukrainian .hero_punkgoat CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_punkgoat #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/billy.vsvg"); }
+.Language_ukrainian .hero_necro CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_necro #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/necro.vsvg"); }
+.Language_ukrainian .hero_fencer CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_fencer #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/fencer.vsvg"); }
+.Language_ukrainian .hero_deadpack CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_deadpack #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/deadpack.vsvg"); }
+.Language_ukrainian .hero_familiar CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_familiar #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/familiar.vsvg"); }
+.Language_ukrainian .hero_werewolf CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_werewolf #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/werewolf.vsvg"); }
+.Language_ukrainian .hero_unicorn CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_unicorn #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/unicorn.vsvg"); }
+.Language_ukrainian .hero_testhero CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_testhero #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/calico.vsvg"); }
+.Language_ukrainian .hero_ratking CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_ratking #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/ratking.vsvg"); }
+.Language_ukrainian .hero_chessmaster CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_chessmaster #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/solomon.vsvg"); }
+.Language_ukrainian .hero_artist CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_artist #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/violet.vsvg"); }
+.Language_ukrainian .hero_nurse CitadelHeroLogo #NaidanLocalizedLogo, .Language_ukrainian CitadelHeroLogo.hero_nurse #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/naidan_official_names/ukrainian/nurse.vsvg"); }
+.Language_english .hero_baba CitadelHeroLogo #NaidanLocalizedLogo, .Language_english CitadelHeroLogo.hero_baba #NaidanLocalizedLogo
+{ background-image: url("s2r://panorama/images/heroes/hero_names/baba_round_en.vtex"); }
+
+.hero_baba CitadelHeroLogo #NaidanLocalizedLogo, CitadelHeroLogo.hero_baba #NaidanLocalizedLogo { wash-color: white; }

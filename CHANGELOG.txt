@@ -1,0 +1,17 @@
+奶蛋 — Beta 0.2.0
+
+• 更新骨架动作与表情表现，优化眼球造型和身体颜色。
+• 更新常规、危急和大笑三种头像，并调整头像位置。
+• 新增独立小地图图标。
+• 更新二、三技能图标，突出长腿与茶壶特征。
+• 更新白色「奶蛋 / NaiDan」艺术字，修复其他英雄艺术字及语言显示问题。
+• 调整技能特效为奶蛋主题黄色。
+
+NaiDan — Beta 0.2.0
+
+• Updated rigged animations and facial expressions, with refinements to eye shape and body color.
+• Updated the normal, critical-health, and laughing portraits and adjusted their positioning.
+• Added a dedicated minimap icon.
+• Updated ability 2 and 3 icons to better highlight the long legs and teapot.
+• Updated the white “奶蛋 / NaiDan” wordmarks and fixed other heroes’ stylized names and language display.
+• Updated ability effects with NaiDan’s yellow theme.
