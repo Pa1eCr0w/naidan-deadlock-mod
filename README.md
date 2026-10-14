@@ -6,6 +6,22 @@ naidanbaba
 
 [GameBanana 原发布页](https://gamebanana.com/mods/726842)
 
+## Beta 0.3.1
+
+奶蛋 — Beta 0.3.1
+
+• 修复安装模组后空骨丹尼在选人界面被锁定、无法使用的问题。
+• 移除过期的全局英雄配置，后续英雄解锁跟随游戏更新，避免阿紫、护士等新英雄出现同类问题。
+• 保留 Beta 0.3.0 的模型、材质和特效。原先通过英雄配置修改的界面主题色恢复为游戏默认颜色。
+
+NaiDan — Beta 0.3.1
+
+• Fixed the mod preventing the newly unlocked hero from being selected.
+• Removed the outdated global hero configuration so future hero unlocks follow game updates, avoiding the same compatibility issue for upcoming heroes.
+• Retained Beta 0.3.0 models, materials and effects. The UI accent previously changed through the hero configuration now follows the game default.
+
+[下载 Beta 0.3.1](https://github.com/Pa1eCr0w/naidan-deadlock-mod/releases/tag/v0.3.1) · [兼容修复说明](docs/beta031-source.md)
+
 ## Beta 0.3.0
 
 奶蛋 — Beta 0.3.0

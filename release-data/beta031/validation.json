@@ -1,0 +1,11 @@
+{
+  "sourceSHA256": "7559302b452e37e669a1b43b3adaff75770927d3de33da0ac51d6beb31233de9",
+  "fixedSHA256": "d2804eb086e73a8590c531ccf8dc299d3cb8437e58581b47e2416de8817d9e6a",
+  "removed": [
+    "scripts/heroes.vdata_c"
+  ],
+  "retainedFiles": 1208,
+  "allRetainedPayloadsByteExact": true,
+  "noGlobalScriptOverrides": true,
+  "uiAccentNote": "Baba UI accent supplied by heroes.vdata now follows the game default; yellow models and effects are untouched."
+}
