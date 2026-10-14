@@ -15,17 +15,17 @@
 					{
 						_class = "RenderMeshFile"
 						name = "base_model"
-						filename = "models/heroes_wip/baba/naidan_base_lod0.fbx"
+						filename = "models/naidan_cupturn/base_lod0.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_folded_model"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_folded_model2.dmx"
+						filename = "models/naidan_props/bench_folded_lod0.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_model"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_model3.dmx"
+						filename = "models/naidan_props/bench_open_lod0.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
@@ -40,17 +40,17 @@
 					{
 						_class = "RenderMeshFile"
 						name = "base_model_lod1"
-						filename = "models/heroes_wip/baba/naidan_base_lod1.fbx"
+						filename = "models/naidan_cupturn/base_lod1.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_folded_model_lod1"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_folded_model_lod17.dmx"
+						filename = "models/naidan_props/bench_folded_lod1.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_model_lod1"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_model_lod18.dmx"
+						filename = "models/naidan_props/bench_open_lod1.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
@@ -65,17 +65,17 @@
 					{
 						_class = "RenderMeshFile"
 						name = "base_model_lod2"
-						filename = "models/heroes_wip/baba/naidan_base_lod2.fbx"
+						filename = "models/naidan_cupturn/base_lod2.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_folded_model_lod2"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_folded_model_lod213.dmx"
+						filename = "models/naidan_props/bench_folded_lod2.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_model_lod2"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_model_lod214.dmx"
+						filename = "models/naidan_props/bench_open_lod2.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
@@ -90,17 +90,17 @@
 					{
 						_class = "RenderMeshFile"
 						name = "base_model_lod3"
-						filename = "models/heroes_wip/baba/naidan_base_lod3.fbx"
+						filename = "models/naidan_cupturn/base_lod3.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_folded_model_lod3"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_folded_model_lod319.dmx"
+						filename = "models/naidan_props/bench_folded_lod3.fbx"
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "baba_pidge_model_lod3"
-						filename = "models/heroes_wip/baba/baba_baba_pidge_model_lod320.dmx"
+						filename = "models/naidan_props/bench_open_lod3.fbx"
 					},
 					{
 						_class = "RenderMeshFile"

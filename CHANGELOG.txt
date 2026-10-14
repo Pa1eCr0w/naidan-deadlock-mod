@@ -1,3 +1,22 @@
+奶蛋 — Beta 0.3.0
+
+• 将所有婆婆的鸽子替换为奶鸽。
+• 将婆婆的茶杯替换为奶茶。
+• 将婆婆的杖子替换为奶脚。
+• 更新奶蛋主体的材质。
+• 将所有婆婆的紫色元素改为黄色。
+• 将长椅的颜色改得更接地气。
+
+NaiDan — Beta 0.3.0
+
+• Replaced all of Baba’s pigeons with NaiGe.
+• Replaced Baba’s teacup with NaiCha.
+• Replaced Baba’s staff with NaiJiao, a Nailong foot.
+• Updated NaiDan’s body materials.
+• Changed all of Baba’s purple elements to yellow.
+• Updated the bench with more natural, everyday park-bench colors.
+
+
 奶蛋 — Beta 0.2.0
 
 • 更新骨架动作与表情表现，优化眼球造型和身体颜色。

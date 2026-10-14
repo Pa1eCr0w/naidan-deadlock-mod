@@ -1,0 +1,35 @@
+{
+  "newVertices": 146834,
+  "compiledBones": 301,
+  "compiledUnchangedPositions": {
+    "checked": 120037,
+    "maxError": 0
+  },
+  "actionsPreserved": 223,
+  "lods": [
+    {
+      "lod": 0,
+      "unchangedPoints": 76377,
+      "maxPositionError": 1.7441361421788315e-07
+    },
+    {
+      "lod": 1,
+      "unchangedPoints": 69748,
+      "maxPositionError": 1.7441361421788315e-07
+    },
+    {
+      "lod": 2,
+      "unchangedPoints": 69725,
+      "maxPositionError": 1.7441361421788315e-07
+    },
+    {
+      "lod": 3,
+      "unchangedPoints": 69723,
+      "maxPositionError": 1.7441361421788315e-07
+    }
+  ],
+  "cupFaceRotationDegrees": 180,
+  "faceCenterMaxError": 1.4220900003511876e-05,
+  "compiledSha256": "f47b023342740d0335397d429eab7f0f051653c5a377e49b5aecd52e10fdfe76",
+  "pigeonSourcesUnchanged": true
+}

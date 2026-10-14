@@ -1,0 +1,33 @@
+{
+  "bodyAlbedoDecodedYellow": true,
+  "bodyAlbedoFile": "body-color.png",
+  "invertedHullOutlinesRestoredToPreRegression": true,
+  "bodyNprRetained": true,
+  "bodyRuntimeVerified": false,
+  "cupFaceRotationDegrees": 180,
+  "targetTransformEffects": [
+    "particles/abilities/baba/baba_hexing_bolt_tgt.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_feathers.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_glow.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_light.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_magic.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_origin.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_revert.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_revert_beam.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_revert_glow.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_smoke.vpcf_c",
+    "particles/abilities/baba/baba_hexing_bolt_tgt_spark.vpcf_c"
+  ],
+  "particleNonColorValidation": {
+    "files": 12,
+    "changedColorScalars": 88,
+    "nonColorFieldsIdentical": true,
+    "nonDataBlocksIdentical": true,
+    "otherHeroesIdentical": true,
+    "gameTested": false
+  },
+  "chairLinearTint": {
+    "wood": 0.7,
+    "metal": 0.6
+  }
+}

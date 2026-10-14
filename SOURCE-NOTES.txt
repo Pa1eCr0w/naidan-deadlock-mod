@@ -1,3 +1,6 @@
-Beta 0.2.0 corresponds to installed package SHA256 37c12d9c1353158962f98db2e870a304bdc6e65ba22aa1e425cbffd851c8209c.
-GameBanana description copied verbatim from public page 726842.
-Current source is a curated authoring snapshot, not a verified clean-room build. Deadlock tools and original game resources are external dependencies. Proprietary compiler binaries, credentials, device configs, private feedback and chat logs are not included.
+Beta 0.3.0 source snapshot.
+Released main VPK SHA256: 7559302b452e37e669a1b43b3adaff75770927d3de33da0ac51d6beb31233de9
+Released selection-map VPK SHA256: b40fab049144758e30adb0f0e52a601cf9e9017c4c1c4329ba8e9da6530d7f92
+See docs/beta030-source.md for final model mappings, material patch order, tool dependencies and reproduction limitations.
+This is a curated authoring snapshot, not a verified clean-room one-command build. Original game resources and proprietary Source 2 tools remain external dependencies.
+No credentials, private feedback, chat logs or machine-control scripts are included in the Beta 0.3.0 additions.

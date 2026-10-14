@@ -1,0 +1,11 @@
+{
+  "files": 743,
+  "total_bytes": 388865351,
+  "missing_direct_model_texture_references": [],
+  "public_source_scan": "PASS",
+  "all_files_under_100MiB": true,
+  "models": 12,
+  "fbx": 56,
+  "blend": 8,
+  "particles": 224
+}

@@ -1,0 +1,278 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_materialName = "materials/models/particle/baba/baba_bubbling_brew_projectile_sphere.vmat"
+	m_shaderName = "pbr.vfx"
+	m_intParams =
+	[
+		{
+			m_name = "F_JITTER_VERTICES"
+			m_nValue = 2
+		},
+		{
+			m_name = "F_SELF_ILLUM"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bApplyTintToVertexColors"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bMaskColorTint1"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bMaskVertexColorTint1"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bUseSecondaryUvForAmbientOcclusion"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bUseSecondaryUvForSelfIllum1"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2UByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2UByModelScaleOrigin"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2VByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2VByModelScaleOrigin"
+			m_nValue = 2
+		},
+		{
+			m_name = "g_nScaleTexCoordUByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordUByModelScaleOrigin"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordVByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordVByModelScaleOrigin"
+			m_nValue = 2
+		},
+		{
+			m_name = "g_nTextureColorTintMode1"
+			m_nValue = 0
+		},
+	]
+	m_floatParams =
+	[
+		{
+			m_name = "g_flAlbedoScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flJitterQuantizeDisplacement1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flJitterQuantizeTime1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flJitterSpeedA1"
+			m_flValue = 6.0
+		},
+		{
+			m_name = "g_flJitterSpeedB1"
+			m_flValue = 4.0
+		},
+		{
+			m_name = "g_flNormalAndRoughnessScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flSelfIllumAlbedoFactor1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flSelfIllumFresnelMaskExponent"
+			m_flValue = 5.0
+		},
+		{
+			m_name = "g_flSelfIllumScale1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flSelfIllumScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_fVertexColorStrength1"
+			m_flValue = 1.0
+		},
+	]
+	m_vectorParams =
+	[
+		{
+			m_name = "g_vAlbedoContrastSaturationBrightness1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "g_vAlbedoScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vColorTint1"
+			m_value = [ 1, 1, 1, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterAmplitudesXA1"
+			m_value = [ 4.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterAmplitudesXB1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterAmplitudesYA1"
+			m_value = [ 0.0, 4.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterAmplitudesYB1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterAmplitudesZA1"
+			m_value = [ 0.0, 0.0, 4.0, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterAmplitudesZB1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterExpression"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterFrequenciesA1"
+			m_value = [ 0.04, 0.04, 0.08, 0.0 ]
+		},
+		{
+			m_name = "g_vJitterFrequenciesB1"
+			m_value = [ 0.05, 0.09, 0.17, 0.0 ]
+		},
+		{
+			m_name = "g_vNormalAndRoughnessScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumFresnelMaskRange1"
+			m_value = [ 0.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumFresnelMaskTint1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumTint1"
+			m_value = [ 1, 1, 1, 0.0 ]
+		},
+		{
+			m_name = "TextureAmbientOcclusion1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureColor1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureJitterMask"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "TextureMetalness1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "TextureNormal1"
+			m_value = [ 0.501961, 0.501961, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureRoughness1"
+			m_value = [ 0.501961, 0.501961, 0.501961, 0.0 ]
+		},
+		{
+			m_name = "TextureSelfIllumMask1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+	]
+	m_textureParams =
+	[
+		{
+			m_name = "g_tColor"
+			m_pValue = resource:"materials/models/particle/baba/baba_bubbling_brew_projectile_sphere_vmat_g_tcolor_7d46cca1.vtex"
+		},
+		{
+			m_name = "g_tJitterMask"
+			m_pValue = resource:"materials/default/default_mask_tga_625be5d1.vtex"
+		},
+		{
+			m_name = "g_tNormalRoughness"
+			m_pValue = resource:"materials/models/particle/baba/baba_bubbling_brew_projectile_sphere_vmat_g_tnormalroughness_2984f4a9.vtex"
+		},
+		{
+			m_name = "g_tSelfIllumMask"
+			m_pValue = resource:"materials/models/particle/baba/baba_bubbling_brew_projectile_sphere_vmat_g_tselfillummask_2b2ebb3f.vtex"
+		},
+		{
+			m_name = "g_tTintMask"
+			m_pValue = resource:"materials/default/default_mask_tga_344101f8.vtex"
+		},
+	]
+	m_dynamicParams =
+	[
+		{
+			m_name = "g_flSelfIllumScale1"
+			m_value = #[ 19 16 42 D3 BA 00 ]
+		},
+		{
+			m_name = "g_vColorTint1"
+			m_value = #[ 19 D0 55 C0 12 00 ]
+		},
+		{
+			m_name = "g_vSelfIllumTint1"
+			m_value = #[ 19 10 19 A6 FA 00 ]
+		},
+	]
+	m_dynamicTextureParams = [  ]
+	m_intAttributes =
+	[
+		{
+			m_name = "RepresentativeTextureHeight"
+			m_nValue = 1
+		},
+		{
+			m_name = "RepresentativeTextureWidth"
+			m_nValue = 1
+		},
+	]
+	m_floatAttributes = [  ]
+	m_vectorAttributes = [  ]
+	m_textureAttributes = [  ]
+	m_stringAttributes = [  ]
+	m_renderAttributesUsed =
+	[
+		"$COLORTINT",
+		"$SELFILLUM",
+		"$SELFILLUMTINT",
+	]
+}

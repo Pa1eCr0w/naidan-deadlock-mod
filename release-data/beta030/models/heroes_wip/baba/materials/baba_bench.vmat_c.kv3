@@ -1,0 +1,252 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_materialName = "models/heroes_wip/baba/materials/baba_bench.vmat"
+	m_shaderName = "pbr.vfx"
+	m_intParams =
+	[
+		{
+			m_name = "F_NO_SPECULAR_AT_FULL_ROUGHNESS"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_SELF_ILLUM"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_SOLID_COLOR_OUTLINE"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_USE_NPR_LIGHTING"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_USE_STATUS_EFFECTS_PROXY"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bApplyTintToVertexColors"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bMaskColorTint1"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bMaskVertexColorTint1"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bUseSecondaryUvForAmbientOcclusion"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bUseSecondaryUvForSelfIllum1"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2UByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2UByModelScaleOrigin"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2VByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2VByModelScaleOrigin"
+			m_nValue = 2
+		},
+		{
+			m_name = "g_nScaleTexCoordUByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordUByModelScaleOrigin"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordVByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordVByModelScaleOrigin"
+			m_nValue = 2
+		},
+		{
+			m_name = "g_nTextureColorTintMode1"
+			m_nValue = 0
+		},
+	]
+	m_floatParams =
+	[
+		{
+			m_name = "g_flAlbedoScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flAltTextureAmount"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flAltTextureRevealSoftness"
+			m_flValue = 0.05
+		},
+		{
+			m_name = "g_flCubemapFogStrength1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flGradientFogStrength1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flNormalAndRoughnessScrollQuantize1"
+			m_flValue = -0.001
+		},
+		{
+			m_name = "g_flSelfIllumAlbedoFactor1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flSelfIllumFresnelMaskExponent"
+			m_flValue = 0.001
+		},
+		{
+			m_name = "g_flSelfIllumScale1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flSelfIllumScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flVolumeFogStrength1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_fSolidOutlineVertexColorTint"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_fVertexColorStrength1"
+			m_flValue = 1.0
+		},
+	]
+	m_vectorParams =
+	[
+		{
+			m_name = "g_vAlbedoContrastSaturationBrightness1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "g_vAlbedoScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vColorTint1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "g_vNormalAndRoughnessScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumFresnelMaskRange1"
+			m_value = [ 0.0, 0.495, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumFresnelMaskTint1"
+			m_value = [ 0.215686, 0.188039, 0.031373, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumTint1"
+			m_value = [ 0.733333, 0.627451, 0.027451, 0.0 ]
+		},
+		{
+			m_name = "g_vSolidOutlineTint"
+			m_value = [ 0.698039, 0.231373, 0.07451, 0.0 ]
+		},
+		{
+			m_name = "TextureAltColor1"
+			m_value = [ 0.501961, 0.501961, 0.501961, 0.0 ]
+		},
+		{
+			m_name = "TextureNormal1"
+			m_value = [ 0.501961, 0.501961, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureNprOutlineMask1"
+			m_value = [ 0.927, 0.927, 0.927, 0.0 ]
+		},
+	]
+	m_textureParams =
+	[
+		{
+			m_name = "g_tAltColor_Reveal"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_vmat_g_taltcolor_reveal_68f78b9.vtex"
+		},
+		{
+			m_name = "g_tAmbientOcclusion"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_ao_tga_6de59c77.vtex"
+		},
+		{
+			m_name = "g_tColor"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_color_tga_f7ef6365.vtex"
+		},
+		{
+			m_name = "g_tNormalRoughness"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_rough_tga_5a837282.vtex"
+		},
+		{
+			m_name = "g_tNprOutlineMask"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_vmat_g_tnproutlinemask_45c31d9b.vtex"
+		},
+		{
+			m_name = "g_tNprTransmissiveColor"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_shadow_tga_6bbcb1a3.vtex"
+		},
+		{
+			m_name = "g_tSelfIllumMask"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_selfillum_tga_5d99b536.vtex"
+		},
+		{
+			m_name = "g_tTintMaskRimLightMask"
+			m_pValue = resource:"models/heroes_wip/baba/materials/baba_bench_rimlight_mask_tga_62073d57.vtex"
+		},
+	]
+	m_dynamicParams =
+	[
+		{
+			m_name = "g_flSelfIllumScale1"
+			m_value = #[ 19 20 47 1C 7F 00 ]
+		},
+	]
+	m_dynamicTextureParams = [  ]
+	m_intAttributes =
+	[
+		{
+			m_name = "RepresentativeTextureHeight"
+			m_nValue = 4096
+		},
+		{
+			m_name = "RepresentativeTextureWidth"
+			m_nValue = 4096
+		},
+	]
+	m_floatAttributes = [  ]
+	m_vectorAttributes = [  ]
+	m_textureAttributes = [  ]
+	m_stringAttributes = [  ]
+	m_renderAttributesUsed =
+	[
+		"$baba_beads_self_illum",
+	]
+}

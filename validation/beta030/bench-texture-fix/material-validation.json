@@ -1,0 +1,116 @@
+[
+  {
+    "name": "wood",
+    "color": "materials/models/naidan_props/park_wood_recolor_png_a76bce04.vtex",
+    "otherMapsExact": true,
+    "dynamicsExact": true,
+    "whiteTint": true
+  },
+  {
+    "name": "metal",
+    "color": "materials/models/naidan_props/park_metal_recolor_png_82670ec5.vtex",
+    "otherMapsExact": true,
+    "dynamicsExact": true,
+    "whiteTint": true
+  },
+  {
+    "compiledMeshAssignments": [
+      {
+        "mesh": "base_model",
+        "materials": [
+          "materials/models/naidan_props/yellow.vmat",
+          "materials/models/naidan_props/mouth_inner.vmat",
+          "materials/models/naidan_props/cream.vmat",
+          "materials/models/naidan_props/dark.vmat",
+          "materials/models/naidan_props/white.vmat",
+          "materials/models/naidan_props/foot.vmat",
+          "materials/models/naidan/naidan_body.vmat",
+          "materials/models/naidan/naidan_iris.vmat",
+          "materials/models/naidan/naidan_pupil.vmat",
+          "materials/models/naidan/naidan_mouth.vmat",
+          "materials/models/naidan/naidan_body_outline.vmat",
+          "materials/models/naidan/naidan_eye_outline.vmat",
+          "materials/models/naidan_props/tongue.vmat",
+          "materials/models/naidan_props/leaf.vmat",
+          "materials/models/naidan_props/tea.vmat",
+          "models/heroes_wip/baba/materials/baba_bench.vmat",
+          "models/heroes_wip/baba/materials/baba_accessories.vmat",
+          "materials/models/naidan_props/park_wood.vmat",
+          "materials/models/naidan_props/park_metal.vmat"
+        ]
+      },
+      {
+        "mesh": "base_model_lod1",
+        "materials": [
+          "materials/models/naidan_props/yellow.vmat",
+          "materials/models/naidan_props/mouth_inner.vmat",
+          "materials/models/naidan_props/cream.vmat",
+          "materials/models/naidan_props/dark.vmat",
+          "materials/models/naidan_props/white.vmat",
+          "materials/models/naidan_props/foot.vmat",
+          "materials/models/naidan/naidan_body.vmat",
+          "materials/models/naidan/naidan_iris.vmat",
+          "materials/models/naidan/naidan_pupil.vmat",
+          "materials/models/naidan/naidan_mouth.vmat",
+          "materials/models/naidan/naidan_body_outline.vmat",
+          "materials/models/naidan/naidan_eye_outline.vmat",
+          "materials/models/naidan_props/tongue.vmat",
+          "materials/models/naidan_props/leaf.vmat",
+          "materials/models/naidan_props/tea.vmat",
+          "models/heroes_wip/baba/materials/baba_bench.vmat",
+          "models/heroes_wip/baba/materials/baba_accessories.vmat",
+          "materials/models/naidan_props/park_wood.vmat",
+          "materials/models/naidan_props/park_metal.vmat"
+        ]
+      },
+      {
+        "mesh": "base_model_lod2",
+        "materials": [
+          "materials/models/naidan_props/yellow.vmat",
+          "materials/models/naidan_props/mouth_inner.vmat",
+          "materials/models/naidan_props/cream.vmat",
+          "materials/models/naidan_props/dark.vmat",
+          "materials/models/naidan_props/white.vmat",
+          "materials/models/naidan_props/foot.vmat",
+          "materials/models/naidan/naidan_body.vmat",
+          "materials/models/naidan/naidan_iris.vmat",
+          "materials/models/naidan/naidan_pupil.vmat",
+          "materials/models/naidan/naidan_mouth.vmat",
+          "materials/models/naidan/naidan_body_outline.vmat",
+          "materials/models/naidan/naidan_eye_outline.vmat",
+          "materials/models/naidan_props/tongue.vmat",
+          "materials/models/naidan_props/leaf.vmat",
+          "materials/models/naidan_props/tea.vmat",
+          "models/heroes_wip/baba/materials/baba_bench.vmat",
+          "models/heroes_wip/baba/materials/baba_accessories.vmat",
+          "materials/models/naidan_props/park_wood.vmat",
+          "materials/models/naidan_props/park_metal.vmat"
+        ]
+      },
+      {
+        "mesh": "base_model_lod3",
+        "materials": [
+          "materials/models/naidan_props/yellow.vmat",
+          "materials/models/naidan_props/mouth_inner.vmat",
+          "materials/models/naidan_props/cream.vmat",
+          "materials/models/naidan_props/dark.vmat",
+          "materials/models/naidan_props/white.vmat",
+          "materials/models/naidan_props/foot.vmat",
+          "materials/models/naidan/naidan_body.vmat",
+          "materials/models/naidan/naidan_iris.vmat",
+          "materials/models/naidan/naidan_pupil.vmat",
+          "materials/models/naidan/naidan_mouth.vmat",
+          "materials/models/naidan/naidan_body_outline.vmat",
+          "materials/models/naidan/naidan_eye_outline.vmat",
+          "materials/models/naidan_props/tongue.vmat",
+          "materials/models/naidan_props/leaf.vmat",
+          "materials/models/naidan_props/tea.vmat",
+          "models/heroes_wip/baba/materials/baba_bench.vmat",
+          "models/heroes_wip/baba/materials/baba_accessories.vmat",
+          "materials/models/naidan_props/park_wood.vmat",
+          "materials/models/naidan_props/park_metal.vmat"
+        ]
+      }
+    ]
+  }
+]

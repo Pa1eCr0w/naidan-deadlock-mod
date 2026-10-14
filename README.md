@@ -6,6 +6,29 @@ naidanbaba
 
 [GameBanana 原发布页](https://gamebanana.com/mods/726842)
 
+## Beta 0.3.0
+
+奶蛋 — Beta 0.3.0
+
+• 将所有婆婆的鸽子替换为奶鸽。
+• 将婆婆的茶杯替换为奶茶。
+• 将婆婆的杖子替换为奶脚。
+• 更新奶蛋主体的材质。
+• 将所有婆婆的紫色元素改为黄色。
+• 将长椅的颜色改得更接地气。
+
+NaiDan — Beta 0.3.0
+
+• Replaced all of Baba’s pigeons with NaiGe.
+• Replaced Baba’s teacup with NaiCha.
+• Replaced Baba’s staff with NaiJiao, a Nailong foot.
+• Updated NaiDan’s body materials.
+• Changed all of Baba’s purple elements to yellow.
+• Updated the bench with more natural, everyday park-bench colors.
+
+
+[下载 Beta 0.3.0](https://github.com/Pa1eCr0w/naidan-deadlock-mod/releases/tag/v0.3.0) · [源码说明](docs/beta030-source.md)
+
 ## Beta 0.2.0
 
 奶蛋 — Beta 0.2.0
@@ -31,7 +54,10 @@ NaiDan — Beta 0.2.0
 - `art/`：二维美术原图、三状态头像、独立小地图图标和中英文矢量艺术字。
 - `content/`：Source 2 UI 源文件、材质及模型 FBX。当前版本以 `art/portraits/critical-selected.png` 为危急头像。
 - `tools/`：动作映射与资源修改工具。historical 中为制作过程脚本，需要调整本地路径和依赖，尚未整理为一键构建工具。
-- GitHub Release 的完整源文件压缩包包含体积较大的 Blender 工程；安装包单独提供。
+- `authoring/beta030/`：奶茶、奶脚和奶鸽的 Blender 编辑工程。完整发行版网格与 LOD 以 `content/` 中 ModelDoc 引用的 FBX 为准。
+- `release-data/beta030/`：从实际发布包导出的材质、特效参数及文件校验表，包含直接修改编译资源的最终结果。
+- `tools/beta030/`：本次模型、权重、贴图及材质/粒子修改代码。
+- GitHub 的 Source code ZIP/TAR 包含上述源码和 Blender 工程；游戏安装包单独提供。
 
 美术制作使用了 AI 生成及人工指导迭代。Deadlock 原始模型、骨架、动画、界面和粒子依赖属于游戏来源内容；奶龙角色及参考素材来自相应原作者。公开文件不表示这些第三方内容由本仓库作者原创或可替第三方授权。
 

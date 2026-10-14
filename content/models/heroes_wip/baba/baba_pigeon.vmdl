@@ -1,0 +1,590 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode =
+	{
+		_class = "RootNode"
+		children =
+		[
+			{
+				_class = "BoneMarkupList"
+				children = [  ]
+				bone_cull_type = "None"
+			},
+			{
+				_class = "RenderMeshList"
+				children =
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "pigeon_model"
+						filename = "models/naige_continuous/normal_lod0.fbx"
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pigeon_model_lod1"
+						filename = "models/naige_continuous/normal_lod1.fbx"
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pigeon_model_lod2"
+						filename = "models/naige_continuous/normal_lod2.fbx"
+					},
+				]
+			},
+			{
+				_class = "LODGroupList"
+				children =
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						mesh_references =
+						[
+							{
+								mesh_name = "pigeon_model"
+							},
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 14.0
+						mesh_references =
+						[
+							{
+								mesh_name = "pigeon_model_lod1"
+							},
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 30.0
+						mesh_references =
+						[
+							{
+								mesh_name = "pigeon_model_lod2"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children =
+				[
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						ignore_rotation = false
+						parent_bone = "pigeon_torso_0"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "shoot_test_standing"
+						ignore_rotation = false
+						parent_bone = ""
+						relative_origin = [ 0.0, -10.0, 60.0 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "shoot_test_crouching"
+						ignore_rotation = false
+						parent_bone = ""
+						relative_origin = [ 0.0, -10.0, 32.0 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "ability_apply"
+						ignore_rotation = false
+						parent_bone = "pigeon_torso_0"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "ability_cast"
+						ignore_rotation = false
+						parent_bone = "pigeon_torso_2"
+						relative_origin = [ 0.0, 0.0, -0.0 ]
+						relative_angles = [ 0.0, 0.0, -89.999992 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "standing_pivot"
+						ignore_rotation = false
+						parent_bone = "root_motion"
+						relative_origin = [ 0.0, 80.0, 0.0 ]
+						relative_angles = [ -89.999992, -89.999992, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "crouching_pivot"
+						ignore_rotation = false
+						parent_bone = "root_motion"
+						relative_origin = [ 0.0, 25.0, 0.0 ]
+						relative_angles = [ -89.999992, -89.999992, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "near_00"
+						ignore_rotation = false
+						parent_bone = "root_motion"
+						relative_origin = [ -36.0, 80.0, -14.0 ]
+						relative_angles = [ -89.999992, -89.999992, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "far_00"
+						ignore_rotation = false
+						parent_bone = "root_motion"
+						relative_origin = [ 0.0, 80.0, -100.0 ]
+						relative_angles = [ -89.999992, -90.0, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "gunaim_00"
+						ignore_rotation = false
+						parent_bone = "root_motion"
+						relative_origin = [ 0.0, 80.0, -90.0 ]
+						relative_angles = [ -89.999992, -89.999992, 0.0 ]
+						weight = 1.0
+					},
+				]
+			},
+			{
+				_class = "NmSkeletonList"
+				children =
+				[
+					{
+						_class = "NmSkeletonReference"
+						filename = "models/heroes_wip/baba/baba_pigeon.vnmskel"
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children =
+				[
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "CitadelCameraSettings_t"
+						game_keys =
+						{
+							m_flCameraSideOffset = 0.0
+							m_flCameraSideOffsetZiplining = 0.0
+							m_flCameraBackOffset = 135.0
+							m_flCameraBackOffsetAiming = 110.0
+							m_flCameraHeightStanding = 80.0
+							m_flCameraHeightCrouching = 50.0
+							m_flCameraHeightOffsetZiplining = 0.0
+							m_vCameraParrotOffset = [ -10.0, -10.0, 10.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "CCitadelHeroModelGameData_t"
+						game_keys =
+						{
+							m_hAmbientParticle = resource_name:""
+							m_vecAmbientParticleSettings = [  ]
+							m_flTurnThreshold = 90.0
+							m_flTurnDuration = 1.0
+							m_eUniqueAims = "Crouch|InAir|Run|CrouchRun|Slide"
+							m_flStepHeight = 32.0
+							m_flCollisionRadius = 20.0
+							m_flCollisionHeight = 80.0
+							m_flLookTargetMaxDistance = 250.0
+							m_flLookTargetMaxAngleUp = 50.0
+							m_flLookTargetMaxAngleDown = 50.0
+							m_flLookTargetMaxAngleLeft = 60.0
+							m_flLookTargetMaxAngleRight = 60.0
+							m_flLookTargetMaxAngleScaleWhileJumping = 0.5
+							m_flLookTargetMaxAngleScaleWhileRunning = 0.5
+							m_bTurnToFaceVelocity = true
+							m_strZiplineAttachFX_AttachmentName = "palm_L"
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children =
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children =
+						[
+							{
+								_class = "HitboxSphere"
+								center = [ -0.0, 0.279303, 0.0 ]
+								radius = 5.0
+								name = "pigeon_pelvis"
+								parent_bone = "pigeon_pelvis"
+								surface_property = "flesh"
+								translation_only = false
+								group_id = 3
+							},
+							{
+								_class = "HitboxSphere"
+								center = [ 0.272311, 0.028095, -0.0 ]
+								radius = 2.75
+								name = "pigeon_torso_2"
+								parent_bone = "pigeon_torso_2"
+								surface_property = "flesh"
+								translation_only = false
+								group_id = 1
+							},
+							{
+								_class = "HitboxSphere"
+								center = [ 0.188759, 0.385226, -0.004085 ]
+								radius = 5.0
+								name = "pigeon_torso_0"
+								parent_bone = "pigeon_torso_0"
+								surface_property = "flesh"
+								translation_only = false
+								group_id = 2
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children =
+				[
+					{
+						_class = "Bone"
+						name = "root_motion"
+						origin = [ -0.0, -0.0, -0.0 ]
+						angles = [ 0.000007, 89.999977, 89.999977 ]
+						do_not_discard = true
+						children =
+						[
+							{
+								_class = "Bone"
+								name = "pelvis"
+								origin = [ 0.083514, 62.788361, -16.230413 ]
+								angles = [ 0.000024, 89.999939, 89.999939 ]
+								do_not_discard = true
+								children =
+								[
+									{
+										_class = "Bone"
+										name = "bench_yaw"
+										origin = [ -0.00005, 0.000032, 0.000013 ]
+										angles = [ -89.999901, -89.999916, 0.0 ]
+										do_not_discard = true
+										children =
+										[
+											{
+												_class = "Bone"
+												name = "bench_pitch"
+												origin = [ 0.000013, -0.00005, 0.000032 ]
+												angles = [ -0.0, 0.0, 0.0 ]
+												do_not_discard = true
+												children =
+												[
+													{
+														_class = "Bone"
+														name = "pigeon_pelvis"
+														origin = [ -0.083512, -56.065308, 13.890111 ]
+														angles = [ -0.0, 0.0, 0.0 ]
+														do_not_discard = true
+														children =
+														[
+															{
+																_class = "Bone"
+																name = "pigeon_torso_0"
+																origin = [ 0.000004, 2.039435, 2.377649 ]
+																angles = [ -20.757492, 90.000008, 90.57412 ]
+																do_not_discard = true
+																children =
+																[
+																	{
+																		_class = "Bone"
+																		name = "pigeon_torso_1"
+																		origin = [ 3.151525, 0.000008, 0.000005 ]
+																		angles = [ -0.175106, -17.75712, 0.036711 ]
+																		do_not_discard = true
+																		children =
+																		[
+																			{
+																				_class = "Bone"
+																				name = "pigeon_torso_2"
+																				origin = [ 2.096759, 0.000005, 0.000005 ]
+																				angles = [ -0.038205, -3.7522, 0.020894 ]
+																				do_not_discard = true
+																				children =
+																				[
+																					{
+																						_class = "Bone"
+																						name = "pigeon_eye_L_0"
+																						origin = [ 1.012073, -0.006502, 0.521156 ]
+																						angles = [ -70.819572, 0.121747, -99.068954 ]
+																						do_not_discard = true
+																						children =
+																						[
+																							{
+																								_class = "Bone"
+																								name = "pigeon_eye_L_end"
+																								origin = [ 0.802773, -0.000008, 0.000005 ]
+																								angles = [ 0.000009, -0.000001, -0.000003 ]
+																								do_not_discard = true
+																							},
+																						]
+																					},
+																					{
+																						_class = "Bone"
+																						name = "pigeon_eye_R_0"
+																						origin = [ 0.971163, -0.030987, -1.337443 ]
+																						angles = [ 73.451508, -3.20348, 95.176163 ]
+																						do_not_discard = true
+																						children =
+																						[
+																							{
+																								_class = "Bone"
+																								name = "pigeon_eye_R_end"
+																								origin = [ 0.680466, 0.000003, -0.000004 ]
+																								angles = [ -0.000011, 0.000003, 0.000002 ]
+																								do_not_discard = true
+																							},
+																						]
+																					},
+																					{
+																						_class = "Bone"
+																						name = "pigeon_torso_end"
+																						origin = [ 2.634686, -0.0, -0.000001 ]
+																						angles = [ 0.000001, -0.000001, -0.000002 ]
+																						do_not_discard = true
+																					},
+																				]
+																			},
+																		]
+																	},
+																	{
+																		_class = "Bone"
+																		name = "pigeon_wing_0_L"
+																		origin = [ 0.393456, -0.137619, 3.775784 ]
+																		angles = [ -9.280987, -146.052658, -7.887218 ]
+																		do_not_discard = true
+																		children =
+																		[
+																			{
+																				_class = "Bone"
+																				name = "pigeon_wing_1_L"
+																				origin = [ 3.183299, -0.00001, -0.000003 ]
+																				angles = [ 16.585085, 17.651529, 3.001797 ]
+																				do_not_discard = true
+																				children =
+																				[
+																					{
+																						_class = "Bone"
+																						name = "pigeon_wing_2_L"
+																						origin = [ 4.082017, -0.000013, -0.000008 ]
+																						angles = [ 16.338806, 22.328054, 0.98028 ]
+																						do_not_discard = true
+																						children =
+																						[
+																							{
+																								_class = "Bone"
+																								name = "pigeon_wing_end_L"
+																								origin = [ 2.914243, 0.0, 0.000001 ]
+																								angles = [ 0.000009, -0.000002, 0.000001 ]
+																								do_not_discard = true
+																							},
+																						]
+																					},
+																				]
+																			},
+																		]
+																	},
+																	{
+																		_class = "Bone"
+																		name = "pigeon_wing_0_R"
+																		origin = [ 0.393454, -0.213262, -3.772261 ]
+																		angles = [ -8.638487, 34.097382, -8.850727 ]
+																		do_not_discard = true
+																		children =
+																		[
+																			{
+																				_class = "Bone"
+																				name = "pigeon_wing_1_R"
+																				origin = [ -3.183304, 0.000008, 0.000004 ]
+																				angles = [ 16.585077, 17.651529, 3.00179 ]
+																				do_not_discard = true
+																				children =
+																				[
+																					{
+																						_class = "Bone"
+																						name = "pigeon_wing_2_R"
+																						origin = [ -4.082024, 0.000008, 0.0 ]
+																						angles = [ 16.338795, 22.328062, 0.980324 ]
+																						do_not_discard = true
+																						children =
+																						[
+																							{
+																								_class = "Bone"
+																								name = "pigeon_wing_end_R"
+																								origin = [ -2.914242, 0.000001, -0.000001 ]
+																								angles = [ -0.00001, -0.000005, 0.0 ]
+																								do_not_discard = true
+																							},
+																						]
+																					},
+																				]
+																			},
+																		]
+																	},
+																]
+															},
+															{
+																_class = "Bone"
+																name = "pigeon_tail_0"
+																origin = [ -0.000003, -0.793377, -3.055956 ]
+																angles = [ 88.548698, -90.000259, 90.000809 ]
+																do_not_discard = true
+																children =
+																[
+																	{
+																		_class = "Bone"
+																		name = "pigeon_tail_1"
+																		origin = [ 3.160412, -0.000003, 0.000006 ]
+																		angles = [ -0.000043, -8.298688, -0.000264 ]
+																		do_not_discard = true
+																		children =
+																		[
+																			{
+																				_class = "Bone"
+																				name = "pigeon_tail_end"
+																				origin = [ 3.366951, 0.000001, 0.000001 ]
+																				angles = [ -0.000017, -0.000003, 0.000002 ]
+																				do_not_discard = true
+																			},
+																		]
+																	},
+																]
+															},
+															{
+																_class = "Bone"
+																name = "pigeon_leg_upper_L"
+																origin = [ 1.693208, -2.01153, 0.55252 ]
+																angles = [ 5.912293, -99.489235, 72.119568 ]
+																do_not_discard = true
+																children =
+																[
+																	{
+																		_class = "Bone"
+																		name = "pigeon_leg_lower_L"
+																		origin = [ 2.18189, 0.000001, 0.000001 ]
+																		angles = [ -0.00002, 18.738714, -0.000024 ]
+																		do_not_discard = true
+																		children =
+																		[
+																			{
+																				_class = "Bone"
+																				name = "pigeon_ankle_L"
+																				origin = [ 1.668655, -0.000001, -0.000002 ]
+																				angles = [ 1.820052, 3.524145, 12.317523 ]
+																				do_not_discard = true
+																				children =
+																				[
+																					{
+																						_class = "Bone"
+																						name = "pigeon_ball_L"
+																						origin = [ 0.364906, -0.000002, -0.000002 ]
+																						angles = [ 4.136697, 48.44635, 2.412604 ]
+																						do_not_discard = true
+																						children =
+																						[
+																							{
+																								_class = "Bone"
+																								name = "pigeon_ball_end_L"
+																								origin = [ 0.57185, 0.0, 0.0 ]
+																								angles = [ -0.000002, -0.000003, -0.000012 ]
+																								do_not_discard = true
+																							},
+																						]
+																					},
+																				]
+																			},
+																		]
+																	},
+																]
+															},
+															{
+																_class = "Bone"
+																name = "pigeon_leg_upper_R"
+																origin = [ -1.693206, -2.01153, 0.552516 ]
+																angles = [ -5.912291, 99.48925, -107.880394 ]
+																do_not_discard = true
+																children =
+																[
+																	{
+																		_class = "Bone"
+																		name = "pigeon_leg_lower_R"
+																		origin = [ -2.18189, 0.000001, -0.0 ]
+																		angles = [ -0.00001, 18.738693, -0.000011 ]
+																		do_not_discard = true
+																		children =
+																		[
+																			{
+																				_class = "Bone"
+																				name = "pigeon_ankle_R"
+																				origin = [ -1.668655, 0.000001, 0.000002 ]
+																				angles = [ 1.82005, 3.524134, 12.317538 ]
+																				do_not_discard = true
+																				children =
+																				[
+																					{
+																						_class = "Bone"
+																						name = "pigeon_ball_R"
+																						origin = [ -0.364907, 0.000002, 0.000002 ]
+																						angles = [ 4.136677, 48.446339, 2.412619 ]
+																						do_not_discard = true
+																						children =
+																						[
+																							{
+																								_class = "Bone"
+																								name = "pigeon_ball_end_R"
+																								origin = [ -0.571849, -0.0, -0.0 ]
+																								angles = [ -0.000008, 0.00001, -0.000004 ]
+																								do_not_discard = true
+																							},
+																						]
+																					},
+																				]
+																			},
+																		]
+																	},
+																]
+															},
+														]
+													},
+												]
+											},
+										]
+									},
+								]
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

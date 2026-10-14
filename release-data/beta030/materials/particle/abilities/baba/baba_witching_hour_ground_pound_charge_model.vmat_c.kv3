@@ -1,0 +1,365 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_materialName = "materials/particle/abilities/baba/baba_witching_hour_ground_pound_charge_model.vmat"
+	m_shaderName = "pbr.vfx"
+	m_intParams =
+	[
+		{
+			m_name = "F_ADVANCED_TRANSLUCENCY"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_DISABLE_DEPTH_WRITE"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_ENABLE_TEXTURE_TRANSFORMS"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_RENDER_BACKFACES"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_SELF_ILLUM"
+			m_nValue = 1
+		},
+		{
+			m_name = "F_TRANSLUCENT"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bApplyTintToVertexColors"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bCustomHolePunch"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bMaskColorTint1"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bMaskVertexColorTint1"
+			m_nValue = 1
+		},
+		{
+			m_name = "g_bUseSecondaryUvForAltTranslucency"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bUseSecondaryUvForAmbientOcclusion"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bUseSecondaryUvForSelfIllum1"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bUseSecondaryUvForTranslucency"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2UByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2UByModelScaleOrigin"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2VByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoord2VByModelScaleOrigin"
+			m_nValue = 2
+		},
+		{
+			m_name = "g_nScaleTexCoordUByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordUByModelScaleOrigin"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordVByModelScaleAxis"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nScaleTexCoordVByModelScaleOrigin"
+			m_nValue = 2
+		},
+		{
+			m_name = "g_nTextureColorTintMode1"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_nTranslucencyBlendMode1"
+			m_nValue = 0
+		},
+	]
+	m_floatParams =
+	[
+		{
+			m_name = "g_flAlbedoScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flAlbedoTexcoordRotation1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flAlphaAnglePower1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flAmbientOcclusionTexcoordRotation1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flCubemapFogStrength1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flGradientFogStrength1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flNormalAndRoughnessScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flNormalTexcoordRotation1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flOpacityScale1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flSelfIllumAlbedoFactor1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flSelfIllumFresnelMaskExponent"
+			m_flValue = 5.0
+		},
+		{
+			m_name = "g_flSelfIllumScale1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flSelfIllumScrollQuantize1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flSelfIllumTexcoordRotation1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flTranslucentScrollQuantize0_1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flTranslucentScrollQuantize1_1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flTranslucentTexcoordRotation0_1"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flTranslucentTexcoordRotation1_1"
+			m_flValue = 90.0
+		},
+		{
+			m_name = "g_flVolumeFogStrength1"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_fVertexColorStrength1"
+			m_flValue = 1.0
+		},
+	]
+	m_vectorParams =
+	[
+		{
+			m_name = "g_vAlbedoContrastSaturationBrightness1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "g_vAlbedoScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vAlbedoTexcoordOffset1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vAlbedoTexcoordScale1"
+			m_value = [ 1.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vAmbientOcclusionTexcoordOffset1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vAmbientOcclusionTexcoordScale1"
+			m_value = [ 1.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vColorTint1"
+			m_value = [ 1, 1, 1, 0.0 ]
+		},
+		{
+			m_name = "g_vNormalAndRoughnessScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vNormalTexcoordOffset1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vNormalTexcoordScale1"
+			m_value = [ 1.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumFresnelMaskRange1"
+			m_value = [ 0.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumFresnelMaskTint1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumScrollSpeed1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumTexcoordOffset1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumTexcoordScale1"
+			m_value = [ 1.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vSelfIllumTint1"
+			m_value = [ 1, 1, 1, 0.0 ]
+		},
+		{
+			m_name = "g_vTranslucentScrollSpeed0_1"
+			m_value = [ 0.0, -1.5, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vTranslucentScrollSpeed1_1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vTranslucentTexcoordOffset0_1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vTranslucentTexcoordOffset1_1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vTranslucentTexcoordScale0_1"
+			m_value = [ 3.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "g_vTranslucentTexcoordScale1_1"
+			m_value = [ 1.0, 1.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "TextureAmbientOcclusion1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "TextureColor1"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureMetalness1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+		{
+			m_name = "TextureSelfIllumMask1"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+	]
+	m_textureParams =
+	[
+		{
+			m_name = "g_tAltTranslucency"
+			m_pValue = resource:"materials/particle/ramp/ramp_bw_yamato_infinity_slash_aoe_psd_c05f9d08.vtex"
+		},
+		{
+			m_name = "g_tAmbientOcclusion"
+			m_pValue = resource:"materials/default/default_ao_tga_559f1ac6.vtex"
+		},
+		{
+			m_name = "g_tColor"
+			m_pValue = resource:"materials/particle/noise/noise_soft_shock_psd_44b8e9d3.vtex"
+		},
+		{
+			m_name = "g_tMetalness"
+			m_pValue = resource:"materials/default/default_metal_tga_9e174e3d.vtex"
+		},
+		{
+			m_name = "g_tNormalRoughness"
+			m_pValue = resource:"materials/default/default_normal_tga_7be61377.vtex"
+		},
+		{
+			m_name = "g_tSelfIllumMask"
+			m_pValue = resource:"materials/default/default_mask_tga_344101f8.vtex"
+		},
+		{
+			m_name = "g_tTintMask"
+			m_pValue = resource:"materials/default/default_mask_tga_344101f8.vtex"
+		},
+	]
+	m_dynamicParams =
+	[
+		{
+			m_name = "g_flSelfIllumScale1"
+			m_value = #[ 19 16 42 D3 BA 00 ]
+		},
+		{
+			m_name = "g_vTranslucentScrollSpeed0_1"
+			m_value = #[ 07 00 00 00 00 19 88 2B 91 FD 06 1A 00 00 ]
+		},
+	]
+	m_dynamicTextureParams = [  ]
+	m_intAttributes =
+	[
+		{
+			m_name = "RepresentativeTextureHeight"
+			m_nValue = 1
+		},
+		{
+			m_name = "RepresentativeTextureHeight"
+			m_nValue = 1
+		},
+		{
+			m_name = "RepresentativeTextureWidth"
+			m_nValue = 1
+		},
+		{
+			m_name = "RepresentativeTextureWidth"
+			m_nValue = 1
+		},
+	]
+	m_floatAttributes = [  ]
+	m_vectorAttributes = [  ]
+	m_textureAttributes = [  ]
+	m_stringAttributes = [  ]
+	m_renderAttributesUsed =
+	[
+		"$SELFILLUM",
+		"$SCROLLY",
+	]
+}

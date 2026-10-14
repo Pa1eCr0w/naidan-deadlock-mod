@@ -1,0 +1,120 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_materialName = "materials/particle/abilities/baba/baba_homing_pigeon_final_tick_ground_projected.vmat"
+	m_shaderName = "projected_decals.vfx"
+	m_intParams =
+	[
+		{
+			m_name = "g_bCutoff"
+			m_nValue = 0
+		},
+		{
+			m_name = "g_bMaskFacingCenter"
+			m_nValue = 0
+		},
+	]
+	m_floatParams =
+	[
+		{
+			m_name = "g_flAlbedoOpacity"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flCutoffWidth"
+			m_flValue = 0.1
+		},
+		{
+			m_name = "g_flEdgeWidth"
+			m_flValue = 0.0
+		},
+		{
+			m_name = "g_flNormalOpacity"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flOpacityScale"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flRoughMetalEmitOpacity"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flSelfIllumScale"
+			m_flValue = 0.2
+		},
+		{
+			m_name = "g_flSlopeFade"
+			m_flValue = 1.0
+		},
+		{
+			m_name = "g_flSlopeFadeSharpness"
+			m_flValue = 1.0
+		},
+	]
+	m_vectorParams =
+	[
+		{
+			m_name = "g_vColorTint"
+			m_value = [ 1, 1, 1, 0.0 ]
+		},
+		{
+			m_name = "TextureColor"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureNormal"
+			m_value = [ 0.501961, 0.501961, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureRoughness"
+			m_value = [ 1.0, 1.0, 1.0, 0.0 ]
+		},
+		{
+			m_name = "TextureSelfIllumMask"
+			m_value = [ 0.0, 0.0, 0.0, 0.0 ]
+		},
+	]
+	m_textureParams =
+	[
+		{
+			m_name = "g_tColor"
+			m_pValue = resource:"materials/particle/glows/glow_falloff_psd_6da4fcaf.vtex"
+		},
+		{
+			m_name = "g_tNormalRoughness"
+			m_pValue = resource:"materials/particle/abilities/baba/baba_homing_pigeon_final_tick_ground_projected_vmat_g_tnormalroughness_d52512a9.vtex"
+		},
+		{
+			m_name = "g_tSelfIllum"
+			m_pValue = resource:"materials/particle/abilities/baba/baba_homing_pigeon_final_tick_ground_projected_vmat_g_tselfillum_2a5a2fce.vtex"
+		},
+	]
+	m_dynamicParams =
+	[
+		{
+			m_name = "g_flSelfIllumScale"
+			m_value = #[ 19 16 42 D3 BA 00 ]
+		},
+	]
+	m_dynamicTextureParams = [  ]
+	m_intAttributes =
+	[
+		{
+			m_name = "RepresentativeTextureHeight"
+			m_nValue = 1
+		},
+		{
+			m_name = "RepresentativeTextureWidth"
+			m_nValue = 1
+		},
+	]
+	m_floatAttributes = [  ]
+	m_vectorAttributes = [  ]
+	m_textureAttributes = [  ]
+	m_stringAttributes = [  ]
+	m_renderAttributesUsed =
+	[
+		"$SELFILLUM",
+	]
+}
