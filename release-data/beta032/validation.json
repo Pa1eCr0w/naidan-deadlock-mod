@@ -1,0 +1,19 @@
+{
+  "baseTag": "v0.3.1",
+  "baseCommit": "44b1ce485a78c8ebc7af23136204fcb631b7a35f",
+  "mainSHA256": "e62ebe903c9f7d075d4fed3dac106cf28a622f0e3d9fd9e48d562c77d9465cf0",
+  "payloads": 690,
+  "baselinePayloadsUnchanged": 685,
+  "protectedPayloadsUnchanged": 661,
+  "sharedBridge": "v3",
+  "runtimeArtworkProfiles": 8,
+  "languages": [
+    "schinese",
+    "english"
+  ],
+  "ordinaryNames": "Explicit separately merged overlay; not automatic core behavior",
+  "globalHeroesTableAbsent": true,
+  "fullLocalizationAbsent": true,
+  "oppositeHeroAssetsAbsent": true,
+  "localTestSiteRestored": true
+}

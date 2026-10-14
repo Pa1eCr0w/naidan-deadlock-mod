@@ -1,0 +1,61 @@
+{
+  "automaticGameLoading": false,
+  "purpose": "Only 11 explicit Baba name/ability-2 tokens. Offline merge input, not an auto-loaded localization file.",
+  "changes": [
+    {
+      "file": "resource/localization/citadel_heroes/citadel_heroes_schinese.txt",
+      "token": "ability_baba_bench_run",
+      "value": "长腿奶蛋"
+    },
+    {
+      "file": "resource/localization/citadel_heroes/citadel_heroes_schinese.txt",
+      "token": "ability_baba_bench_run_quip",
+      "value": "长腿奶蛋：高高跳起再用充满灵力的腿踢飞附近的任何人。"
+    },
+    {
+      "file": "resource/localization/citadel_heroes/citadel_heroes_schinese.txt",
+      "token": "modifier_baba_bench_run",
+      "value": "长腿奶蛋"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_schinese.txt",
+      "token": "hero_baba:n",
+      "value": "奶蛋"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_schinese.txt",
+      "token": "hero_baba_search:n",
+      "value": "奶蛋 naidan 婆婆 popo 奶奶 nainai 鸽子 gezi"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_schinese.txt",
+      "token": "hero_baba_sort:n",
+      "value": "奶蛋"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_schinese.txt",
+      "token": "Steam_RP_hero_baba",
+      "value": "奶蛋"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_english.txt",
+      "token": "hero_baba:n",
+      "value": "NaiDan"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_english.txt",
+      "token": "hero_baba_search:n",
+      "value": "NaiDan"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_english.txt",
+      "token": "hero_baba_sort:n",
+      "value": "NaiDan"
+    },
+    {
+      "file": "resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_english.txt",
+      "token": "Steam_RP_hero_baba",
+      "value": "NaiDan"
+    }
+  ]
+}

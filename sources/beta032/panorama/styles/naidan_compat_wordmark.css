@@ -1,0 +1,8 @@
+.NaidanOwnWordmark {
+ width: 600px; height: 160px; margin-bottom: 15px; horizontal-align: center;
+ background-image: url("s2r://panorama/images/heroes/hero_names/baba_round_cn.vtex");
+ background-size: contain; background-position: center; background-repeat: no-repeat;
+}
+.Language_english .NaidanOwnWordmark {
+ background-image: url("s2r://panorama/images/heroes/hero_names/baba_round_en.vtex");
+}
