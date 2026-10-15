@@ -8,7 +8,7 @@ naidanbaba
 
 ## Beta 0.3.2
 
-独立艺术字与模组兼容更新；模型、材质和特效保持 Beta 0.3.1。主包不再附带整张改名表，普通名称改动需要显式合并可选覆盖层。中文艺术字需正确挂载 Game_UILanguage 资源。
+独立艺术字、黄色选人界面与中央“长腿奶蛋”提示更新；模型、材质和特效保持 Beta 0.3.1。主包不再附带整张改名表，普通名称改动需要显式合并可选覆盖层。中文艺术字需正确挂载 Game_UILanguage 资源。
 
 [下载 Beta 0.3.2](https://github.com/Pa1eCr0w/naidan-deadlock-mod/releases/tag/v0.3.2) · [源码、复现与兼容说明](docs/beta032-source.md)
 

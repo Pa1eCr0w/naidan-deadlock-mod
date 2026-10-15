@@ -1,0 +1,8 @@
+/* Only the active Baba bench-run HUD uses this local Chinese name.
+   Both overlays retain native context=progress and clip_right lifecycle. */
+#NaidanBenchHudName, #NaidanBenchHudProgress { visibility: collapse; }
+.Language_schinese .ability_baba_bench_run #ability_name,
+.Language_schinese .ability_baba_bench_run #ability_name_clipped { visibility: collapse; }
+.Language_schinese .ability_baba_bench_run #NaidanBenchHudName,
+.Language_schinese .ability_baba_bench_run #NaidanBenchHudProgress { visibility: visible; }
+.ability_baba_bench_run .SplitLabelProgressBar #NaidanBenchHudProgress { wash-color: #FFD84F; }

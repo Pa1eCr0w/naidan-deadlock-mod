@@ -687,6 +687,10 @@
   "panorama/styles/independent_wordmark_bridge.vcss_c": "bd06b4dbf751df090687ddca7e1b889ff31a366b4c13d7dadd49c9c8c346ae04",
   "panorama/styles/ability_hud_elements/element_baba_charge_jump.vcss_c": "a506935e0b28d232005a2807254066fa0ad2131fb8458b2c8aa3214cf37ac44d",
   "panorama/styles/ability_hud_elements/element_baba_bubblingbrew.vcss_c": "c3bd4d88cff4bb83b374c4776331dc585fd4c606b70150d54eb04dfb97fd2ea7",
-  "panorama/styles/ability_hud_elements/abilities_baba.vcss_c": "2c475979bdfafdbef32160cae6c080d28370c2b6c58be113bd6df9139fd04cb8",
-  "panorama/scripts/independent_wordmark_bridge.vjs_c": "97f7a1f02f2a94ad588db9adc9a479ed6378d0e15ac9bfbb62efb6bddce61581"
+  "panorama/styles/ability_hud_elements/abilities_baba.vcss_c": "43f32f89e74b96af8796dd012ad27d66684de887477dc53fb8b031767b1d17ca",
+  "panorama/scripts/independent_wordmark_bridge.vjs_c": "97f7a1f02f2a94ad588db9adc9a479ed6378d0e15ac9bfbb62efb6bddce61581",
+  "panorama/styles/citadel_hero_abilities.vcss_c": "d60f0c36ff703f66d2d8b754c2c5bf9acc900128e473fe7b78b276934df458fd",
+  "panorama/styles/citadel_hero_tags.vcss_c": "e5c1d1924e0e827177d9ecdc2c432411cea33136fa352323030434a96c093cbd",
+  "panorama/layout/ability_hud_elements/element_progress_bar_text.vxml_c": "ca00be825bfc1d5d3b2f7bc87f4ef3eb76bc85ee590c0925955a561902a7e803",
+  "panorama/styles/ability_hud_elements/naidan_bench_hud.vcss_c": "92d5a8678ad7154fc14c94675bf2aec1a44af0d74424fe6dfd9fea75d6adb442"
 }

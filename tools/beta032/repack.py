@@ -35,7 +35,7 @@ for ext,dirs in sorted(groups.items()):
  tree+=b'\0'
 tree+=b'\0';b=struct.pack('<7I',0x55aa1234,2,len(tree),len(payload),0,48,0)+tree+payload;b+=hashlib.md5(tree).digest()+hashlib.md5(b'').digest();b+=hashlib.md5(b).digest()
 
-assert hashlib.sha256(b).hexdigest()=='e62ebe903c9f7d075d4fed3dac106cf28a622f0e3d9fd9e48d562c77d9465cf0'
+assert hashlib.sha256(b).hexdigest()=='1ca251db7ad4fd3d4990a5ab6d5a0cf5bc2e8f3d137fa8af0d1d6b8e323cd47e'
 a.output.parent.mkdir(parents=True,exist_ok=True)
 with a.output.open('xb') as f:f.write(b)
-print('PASS: 690 resources; exact tested Beta0.3.2 core')
+print('PASS: 694 resources; exact tested Beta0.3.2 core')

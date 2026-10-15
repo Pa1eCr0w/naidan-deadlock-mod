@@ -1,19 +1,40 @@
 {
-  "baseTag": "v0.3.1",
-  "baseCommit": "44b1ce485a78c8ebc7af23136204fcb631b7a35f",
-  "mainSHA256": "e62ebe903c9f7d075d4fed3dac106cf28a622f0e3d9fd9e48d562c77d9465cf0",
-  "payloads": 690,
-  "baselinePayloadsUnchanged": 685,
-  "protectedPayloadsUnchanged": 661,
-  "sharedBridge": "v3",
-  "runtimeArtworkProfiles": 8,
-  "languages": [
-    "schinese",
-    "english"
+  "base": "073acf3246f05ec86e76c890cb63dec7527ea58538ad602e0529f9d57637d087",
+  "target": "Actual central active bench-run HUD, not ability details",
+  "mechanism": "Chinese-only duplicate native SplitLabel + context=progress clip_right Image, selected by ability_baba_bench_run class; parent lifecycle untouched",
+  "changes": [
+    "Shared progress text layout: add own stylesheet and paired native progress label/image",
+    "Own CSS: show new pair only Chinese bench-run; otherwise preserve original pair",
+    "Existing Baba HUD CSS: only bench-run progress wash babaColor -> #FFD84F"
   ],
-  "ordinaryNames": "Explicit separately merged overlay; not automatic core behavior",
-  "globalHeroesTableAbsent": true,
-  "fullLocalizationAbsent": true,
-  "oppositeHeroAssetsAbsent": true,
-  "localTestSiteRestored": true
+  "preserved": [
+    "Parent active/visibility/duration logic",
+    "Original progress binding and clip_right behavior",
+    "Other ability title/progress resources",
+    "Approved selection yellow abilities/tags and wordmarks"
+  ],
+  "notIncluded": [
+    "Detail-title experiment",
+    "Localization tables",
+    "Global ability/hero tables"
+  ],
+  "runtimeVerified": "Owner confirmed central HUD in game with final NaiDan and matching AberLai packages",
+  "mainVpkSHA256": "1ca251db7ad4fd3d4990a5ab6d5a0cf5bc2e8f3d137fa8af0d1d6b8e323cd47e",
+  "zipSHA256": "0682efaff665f8bf221971ee010101c00cb6d6e4fa34ddeb23679b523532bc39",
+  "payloads": 694,
+  "changedOrAdded": {
+    "panorama/layout/ability_hud_elements/element_progress_bar_text.vxml_c": "ca00be825bfc1d5d3b2f7bc87f4ef3eb76bc85ee590c0925955a561902a7e803",
+    "panorama/styles/ability_hud_elements/abilities_baba.vcss_c": "43f32f89e74b96af8796dd012ad27d66684de887477dc53fb8b031767b1d17ca",
+    "panorama/styles/ability_hud_elements/naidan_bench_hud.vcss_c": "92d5a8678ad7154fc14c94675bf2aec1a44af0d74424fe6dfd9fea75d6adb442"
+  },
+  "retainedBaselinePayloadsUnchanged": 691,
+  "testScope": {
+    "finalHUD": "Owner acceptance; installed VPK hash independently confirmed",
+    "selectionYellowUI": "Pre-HUD yellow UI base: four Chinese single/combined configurations passed",
+    "bridge": "Earlier bridge core: eight Chinese/English configurations passed",
+    "notRunOnFinalHUD": [
+      "automated start/middle/end/retrigger capture",
+      "English and single/combined load-order matrix"
+    ]
+  }
 }
