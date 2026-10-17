@@ -1,0 +1,62 @@
+{
+  "cameraDefinitionsExactRetail": true,
+  "cameraCount": 10,
+  "meshBlocks": 20,
+  "rootAttachmentsPerBlock": 16,
+  "rootAttachmentsExactRetail": true,
+  "graphAndSkeletonReferencesExactRetail": true,
+  "clips": 291,
+  "tracksPerClip": 243,
+  "offsetErrors": 0,
+  "skeletonBones": 243,
+  "packageFiles": 700,
+  "unchangedExistingResources": 407,
+  "vpkMatchesInstalledCandidate": true,
+  "fullRuntimeRegression": false,
+  "randomAccessDecode": {
+    "clips": 291,
+    "frames": 11127,
+    "samples": 2703861,
+    "mismatches": 0,
+    "maxPositionError": 0,
+    "maxQuaternionError": 1.7881393e-07,
+    "maxScaleError": 0
+  },
+  "newClipConversion": [
+    {
+      "clip": "ability_hex_zipline_tethered_reeling_loop.vnmclip_c",
+      "frames": 46,
+      "sourceBones": 248,
+      "targetBones": 243,
+      "maxWorldPositionErrorSourceUnits": 0.008455694
+    },
+    {
+      "clip": "ability_hex_zipline_attached_start.vnmclip_c",
+      "frames": 86,
+      "sourceBones": 248,
+      "targetBones": 243,
+      "maxWorldPositionErrorSourceUnits": 0.008990075
+    },
+    {
+      "clip": "ability_hex_zipline_boosted_loop.vnmclip_c",
+      "frames": 111,
+      "sourceBones": 248,
+      "targetBones": 243,
+      "maxWorldPositionErrorSourceUnits": 0.012164135
+    },
+    {
+      "clip": "ability_hex_zipline_attached_loop.vnmclip_c",
+      "frames": 111,
+      "sourceBones": 248,
+      "targetBones": 243,
+      "maxWorldPositionErrorSourceUnits": 0.0109517155
+    },
+    {
+      "clip": "ability_hex_zipline_awaiting_tether.vnmclip_c",
+      "frames": 90,
+      "sourceBones": 248,
+      "targetBones": 243,
+      "maxWorldPositionErrorSourceUnits": 0.009742582
+    }
+  ]
+}

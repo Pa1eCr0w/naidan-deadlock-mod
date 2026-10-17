@@ -1,0 +1,13 @@
+{
+  "hero": "baba",
+  "version": "0.3.3",
+  "name": "婆婆奶蛋",
+  "baselineVpkSHA256": "1ca251db7ad4fd3d4990a5ab6d5a0cf5bc2e8f3d137fa8af0d1d6b8e323cd47e",
+  "expectedVpkSHA256": "7f73e1879103b17b0c21bdb2d87b35517b1ff38732149d6064b179868f59b2f6",
+  "zipSHA256": "cc9f6aefd32b06ecaef7df70669fa40e34f4af83f6d4957e5fe7f5cce8395c1d",
+  "zipBytes": 52022920,
+  "readerUpstreamCommit": "d9926fcb7df821b8476f4750250d5dbf61a6bab7",
+  "files": 700,
+  "unchangedExisting": 407,
+  "fullRuntimeRegression": false
+}
