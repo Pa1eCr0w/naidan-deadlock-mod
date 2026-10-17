@@ -1,0 +1,31 @@
+{
+  "version": "奶蛋婆婆四肢版0.3.2",
+  "branch": "naidan-limbs-0.3.2",
+  "baseCommit": "9ee87291e55c6019ad1a310befc997b484d9a81b",
+  "archive": {
+    "name": "奶蛋婆婆四肢版0.3.2.zip",
+    "bytes": 59674692,
+    "sha256": "46bcda83669dd9247541054783ae07e41a3d1f5661574350998ddd2d7ac7f5f6"
+  },
+  "vpk": {
+    "name": "pak08_dir.vpk",
+    "sha256": "5aa0c622849a6f42c246a0a3787b490497452a88c676e0fccbd6bdf35972844e",
+    "resources": 700
+  },
+  "checks": {
+    "zipCrcPassed": true,
+    "vpkAllPayloadsIndependentlyVerified": 700,
+    "animationClips": 291,
+    "animationFrames": 11127,
+    "randomAccessSamples": 2703861,
+    "randomAccessMismatchCount": 0,
+    "geometryLods": 4,
+    "retailCameraDefinitionsRestored": 10,
+    "rootAttachmentsMatchedToRetail": 16
+  },
+  "runtimeAcceptance": {
+    "date": "2026-10-17",
+    "status": "Author reported no remaining apparent problems after in-game testing",
+    "limit": "Not an exhaustive test of every game state; later game updates can affect compatibility."
+  }
+}
